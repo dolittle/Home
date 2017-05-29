@@ -11,4 +11,4 @@
 | Platform | Build Status |
 | -------- | ------ |
 | Windows | [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/umi5t4qs6stw9uud?svg=true)](https://ci.appveyor.com/project/Dolittle/core) |
-| Linux | [![Travis Build Status](https://travis-ci.org/dolittle/DotNET.Core.svg?branch=master)](https://travis-ci.org/dolittle/DotNET.Core) |
+| Linux / macOS | [![Travis Build Status](https://travis-ci.org/dolittle/DotNET.Core.svg?branch=master)](https://travis-ci.org/dolittle/DotNET.Core) |
