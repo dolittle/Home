@@ -6,8 +6,8 @@
 
 ## Packages
 
-| Project | NuGet | MyGet |
-| ------ | ------- | ------ |
+| Project | NuGet   | MyGet  |
+| ------- | ------- | ------ |
 | .NET SDK | [![NuGet](https://img.shields.io/nuget/v/dolittle.svg)](https://www.nuget.org/packages?q=dolittle) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.svg)](https://www.myget.org/gallery/dolittle) |
 
 
@@ -15,5 +15,5 @@
 
 
 | Project | Windows | Linux / macOS |
-| -------- | ------ |
+| -------- | ------ | ------------- |
 | .NET SDK | [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/umi5t4qs6stw9uud?svg=true)](https://ci.appveyor.com/project/Dolittle/core) | Linux / macOS | [![Travis Build Status](https://travis-ci.org/dolittle/DotNET.Core.svg?branch=master)](https://travis-ci.org/dolittle/DotNET.Core) |
