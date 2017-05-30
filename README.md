@@ -4,12 +4,19 @@
 [![Stories in Ready](https://badge.waffle.io/dolittle/home.png?label=ready&title=Ready)](http://waffle.io/dolittle/home)
 
 
-## doLittle - Core Packages
+## Packages
+
+### .NET Core
 
 | Source | Version |
 | ------ | ------- |
 | NuGet | [![NuGet](https://img.shields.io/nuget/v/dolittle.svg)](https://www.nuget.org/packages?q=dolittle) |
 | MyGet | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.svg)](https://www.myget.org/gallery/dolittle)
+
+
+## Build Status
+
+### .NET Core 
 
 | Platform | Build Status |
 | -------- | ------ |
