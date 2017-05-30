@@ -6,18 +6,14 @@
 
 ## Packages
 
-### .NET Core
-
 | Project | NuGet | MyGet |
 | ------ | ------- | ------ |
-| .NET Core | [![NuGet](https://img.shields.io/nuget/v/dolittle.svg)](https://www.nuget.org/packages?q=dolittle) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.svg)](https://www.myget.org/gallery/dolittle) |
+| .NET SDK | [![NuGet](https://img.shields.io/nuget/v/dolittle.svg)](https://www.nuget.org/packages?q=dolittle) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.svg)](https://www.myget.org/gallery/dolittle) |
 
 
 ## Build Status
 
-### .NET Core 
 
-| Platform | Build Status |
+| Project | Windows | Linux / macOS |
 | -------- | ------ |
-| Windows | [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/umi5t4qs6stw9uud?svg=true)](https://ci.appveyor.com/project/Dolittle/core) |
-| Linux / macOS | [![Travis Build Status](https://travis-ci.org/dolittle/DotNET.Core.svg?branch=master)](https://travis-ci.org/dolittle/DotNET.Core) |
+| .NET SDK | [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/umi5t4qs6stw9uud?svg=true)](https://ci.appveyor.com/project/Dolittle/core) | Linux / macOS | [![Travis Build Status](https://travis-ci.org/dolittle/DotNET.Core.svg?branch=master)](https://travis-ci.org/dolittle/DotNET.Core) |
