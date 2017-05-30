@@ -8,10 +8,9 @@
 
 ### .NET Core
 
-| Source | Version |
-| ------ | ------- |
-| NuGet | [![NuGet](https://img.shields.io/nuget/v/dolittle.svg)](https://www.nuget.org/packages?q=dolittle) |
-| MyGet | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.svg)](https://www.myget.org/gallery/dolittle)
+| Project | NuGet | MyGet |
+| ------ | ------- | ------ |
+| .NET Core | [![NuGet](https://img.shields.io/nuget/v/dolittle.svg)](https://www.nuget.org/packages?q=dolittle) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.svg)](https://www.myget.org/gallery/dolittle) |
 
 
 ## Build Status
