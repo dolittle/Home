@@ -16,4 +16,7 @@
 
 | Project | Windows | Linux / macOS |
 | -------- | ------ | ------------- |
-| .NET Fundamentals | [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/umi5t4qs6stw9uud?svg=true)](https://ci.appveyor.com/project/Dolittle/core) | [![Travis Build Status](https://travis-ci.org/dolittle/DotNET.Core.svg?branch=master)](https://travis-ci.org/dolittle/DotNET.Core) |
+| .NET Fundamentals | [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/umi5t4qs6stw9uud?svg=true)](https://ci.appveyor.com/project/Dolittle/core) | [![Travis Build Status](https://travis-ci.org/dolittle/DotNET.Fundamentals.svg?branch=master)](https://travis-ci.org/dolittle/DotNET.Fundamentals) |
+| .NET Runtime | [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/83b4tlt2euskb582?svg=true)](https://ci.appveyor.com/project/Dolittle/dotnet-runtime) | [![Travis Build Status](https://travis-ci.org/dolittle/DotNET.Core.svg?branch=master)](https://travis-ci.org/dolittle/DotNET.Runtime) |
+
+
