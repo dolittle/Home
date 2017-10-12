@@ -11,6 +11,10 @@ Read our [contribution guide](http://www.dolittle.io/Articles/contributing.html)
 
 This repository holds the issues across all projects organized in the [Projects](https://github.com/dolittle/Home/projects) tab above.It also contains the links to all the projects organized from here.
 
+## Gettings Started
+
+Go to our [documentation site](http://www.dolittle.io) and learn more about the project and how to get started.
+
 
 ## Packages
 
