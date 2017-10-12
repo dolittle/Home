@@ -5,7 +5,7 @@
 
 ## Contributing
 
-Read our [contribution guide](http://www.dolittle.io/Articles/contributing.html).
+Read our [contribution guide](http://www.dolittle.io/Articles/contributing.html) and get familiar with our [code of conduct](CODE_OF_CONDUCT.md).
 
 ## Projects
 
