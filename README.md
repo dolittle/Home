@@ -3,6 +3,10 @@
 [![Join the chat at https://gitter.im/dolittle/home](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dolittle/home?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Stories in Ready](https://badge.waffle.io/dolittle/home.png?label=ready&title=Ready)](http://waffle.io/dolittle/home)
 
+## Contributing
+
+Read our [contribution guide](http://www.dolittle.io/Articles/contributing.html).
+
 
 ## Packages
 
