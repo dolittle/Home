@@ -18,7 +18,7 @@ Go to our [documentation site](http://www.dolittle.io) and learn more about the 
 
 ## Packages
 
-| Project | NuGet   | MyGet  |
+| Platform | NuGet   | MyGet  |
 | ------- | ------- | ------ |
 | .NET | [![NuGet](https://img.shields.io/nuget/v/dolittle.svg)](https://www.nuget.org/packages?q=dolittle) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.svg)](https://www.myget.org/gallery/dolittle) |
 
