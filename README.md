@@ -14,6 +14,8 @@ This repository holds the issues across all projects organized in the [Projects]
 ## Getting Started
 
 Go to our [documentation site](http://www.dolittle.io) and learn more about the project and how to get started.
+Samples can also be found [here](https://github.com/doLittle-Samples).
+You can find entropy projects [here](https://github.com/doLittle-Entropy).
 
 
 ## Packages
