@@ -20,8 +20,9 @@ Go to our [documentation site](http://www.dolittle.io) and learn more about the 
 
 | Platform | Production   | From CI  |
 | ------- | ------- | ------ |
-| .NET SDK | [![NuGet](https://img.shields.io/nuget/v/dolittle.svg)](https://www.nuget.org/packages?q=dolittle) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.svg)](https://www.myget.org/gallery/dolittle) |
+| .NET Fundamentals | [![NuGet](https://img.shields.io/nuget/v/dolittle.Applications.svg)](https://www.nuget.org/packages?q=dolittle) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.Applications.svg)](https://www.myget.org/gallery/dolittle) |
 | .NET Runtime | [![NuGet](https://img.shields.io/nuget/v/dolittle.Runtime.Events.svg)](https://www.nuget.org/packages?q=dolittle.Runtime) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.Runtime.Events.svg)](https://www.myget.org/gallery/dolittle) |
+| .NET SDK | [![NuGet](https://img.shields.io/nuget/v/dolittle.svg)](https://www.nuget.org/packages?q=dolittle) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.svg)](https://www.myget.org/gallery/dolittle) |
 
 
 ## Build Status
