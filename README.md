@@ -3,6 +3,11 @@
 [![Join the chat at https://gitter.im/dolittle/home](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dolittle/home?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Stories in Ready](https://badge.waffle.io/dolittle/home.png?label=ready&title=Ready)](http://waffle.io/dolittle/home)
 
+## Important information
+
+Since doLittle is in **alpha** and in a volatile state with things moving around and you want to try things out. You might want to consider looking at the stabile version called [Bifrost](https://github.com/dolittle/bifrost) with its documentation sitting [here](http://www.dolittle.io/bifrost).
+
+
 ## Contributing
 
 Read our [contribution guide](http://www.dolittle.io/Articles/contributing.html) and get familiar with our [code of conduct](CODE_OF_CONDUCT.md).
