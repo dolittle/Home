@@ -20,7 +20,7 @@ This repository holds the issues across all projects organized in the [Projects]
 
 Go to our [documentation site](http://www.dolittle.io) and learn more about the project and how to get started.
 Samples can also be found [here](https://github.com/doLittle-Samples).
-You can find entropy projects [here](https://github.com/doLittle-Entropy).
+You can find entropy projects [here](https://github.com/doLittle-Entropy) - early "bouncing ideas off the wall" types of projects that could eventually find itself into the platform.
 
 Fundamental to doLittle is that surrounding the core is a set of extensions, these can be found [here](https://github.com/doLittle-Extensions).
 
