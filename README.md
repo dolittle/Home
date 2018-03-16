@@ -34,8 +34,8 @@ All our tools are found [here](https://github.com/doLittle-Tools).
 | ------- | ------- | ------ |
 | .NET Fundamentals | [![NuGet](https://img.shields.io/nuget/v/dolittle.Assemblies.svg)](https://www.nuget.org/packages?q=dolittle) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.Assemblies.svg)](https://www.myget.org/gallery/dolittle) |
 | .NET Runtime | [![NuGet](https://img.shields.io/nuget/v/dolittle.Runtime.Events.svg)](https://www.nuget.org/packages?q=dolittle.Runtime) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.Runtime.Events.svg)](https://www.myget.org/gallery/dolittle) |
-| .NET SDK | [![NuGet](https://img.shields.io/nuget/v/dolittle.svg)](https://www.nuget.org/packages?q=dolittle) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.svg)](https://www.myget.org/gallery/dolittle) |
-| ASP.NET Core | [![NuGet](https://img.shields.io/nuget/v/dolittle.interaction.aspnetcore.svg)](https://www.nuget.org/packages?q=dolittle.interaction.aspnetcore) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.interaction.aspnetcore.svg)](https://www.myget.org/gallery/dolittle) |
+| .NET SDK | [![NuGet](https://img.shields.io/nuget/v/dolittle.svg)](https://www.nuget.org/packages?q=dolittle.commands) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.commands.svg)](https://www.myget.org/gallery/dolittle) |
+| ASP.NET Core | [![NuGet](https://img.shields.io/nuget/v/dolittle.aspnetcore.commands.svg)](https://www.nuget.org/packages?q=dolittle.aspnetcore) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.aspnetcore.commands.svg)](https://www.myget.org/gallery/dolittle) |
 | Autofac | [![NuGet](https://img.shields.io/nuget/v/dolittle.dependencyinversion.autofac.svg)](https://www.nuget.org/packages?q=dolittle.dependencyinversion.autofac) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.dependencyinversion.autofac.svg)](https://www.myget.org/gallery/dolittle) |
 
 
