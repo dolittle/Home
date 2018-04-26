@@ -19,14 +19,21 @@ This repository holds the issues across all projects organized in the [Projects]
 ## Getting Started
 
 Go to our [documentation site](http://www.dolittle.io) and learn more about the project and how to get started.
-Samples can also be found [here](https://github.com/doLittle-Samples).
-You can find entropy projects [here](https://github.com/doLittle-Entropy) - early "bouncing ideas off the wall" types of projects that could eventually find itself into the platform.
 
-Fundamental to doLittle is that surrounding the core is a set of extensions, these can be found [here](https://github.com/doLittle-Extensions).
+## Organizations
 
-All our interaction layer implementations are found [here](https://github.com/doLittle-Interaction).
+Dolittle consists of quite a few projects all geared towards different aspects. All these aspects has an organization representing them:
 
-All our tools are found [here](https://github.com/doLittle-Tools).
+| Aspect | Description |
+| ------ | ----------- |
+| [Home / Main](https://github.com/dolittle) | Our landing point - the home of Dolittle |
+| [Interaction](https://github.com/dolittle-interaction) | All interaction layers are found here. An interaction layer is for instance a frontend, API or similar |
+| [Tools](https://github.com/dolittle-tools) | All tools for the platform |
+| [Platform](https://github.com/dolittle-platform) | The closed source part of our platform - it has however all the issues in public |
+| [Extensions](https://github.com/dolittle-extensions) | The closed source part of our platform - it has however all the issues in public |
+| [Samples](https://github.com/dolittle-samples) | All samples for using Dolittle |
+| [Entropy](https://github.com/dolittle-samples) | When we want to try out new things, we keep them here first |
+| [Boilerplates](https://github.com/dolittle-boilerplates) | Boilerplates for tooling experience for getting started with different projects and artifacts |
 
 ## Packages
 
