@@ -45,6 +45,7 @@ Dolittle consists of quite a few projects all geared towards different aspects. 
 | ASP.NET Core | [![NuGet](https://img.shields.io/nuget/v/dolittle.aspnetcore.commands.svg)](https://www.nuget.org/packages?q=dolittle.aspnetcore) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.aspnetcore.commands.svg)](https://www.myget.org/gallery/dolittle) |
 | Autofac | [![NuGet](https://img.shields.io/nuget/v/dolittle.dependencyinversion.autofac.svg)](https://www.nuget.org/packages?q=dolittle.dependencyinversion.autofac) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.dependencyinversion.autofac.svg)](https://www.myget.org/gallery/dolittle) |
 | ReadModels.MongoDB | [![NuGet](https://img.shields.io/nuget/v/dolittle.readmodels.mongodb.svg)](https://www.nuget.org/packages?q=dolittle.readmodels.mongodb) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.readmodels.mongodb.svg)](https://www.myget.org/gallery/dolittle) |
+| Runtime.Events.Storage.Azure | [![NuGet](https://img.shields.io/nuget/v/dolittle.runtime.events.storage.azure.svg)](https://www.nuget.org/packages?q=dolittle.runtime.events.storage.azure) | [![MyGet](https://img.shields.io/myget/dolittle/vpre/dolittle.runtime.events.storage.azure.svg)](https://www.myget.org/gallery/dolittle) |
 
 
 ## Build Status
@@ -58,7 +59,7 @@ Dolittle consists of quite a few projects all geared towards different aspects. 
 | ASP.NET Core | [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/r2q9b9ya1vygyx9o?svg=true)](https://ci.appveyor.com/project/Dolittle/aspnetcore) [![AppVeyor tests](https://img.shields.io/appveyor/tests/Dolittle/aspnetcore.svg)]() |  |
 | Autofac | [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/cijukudqo5wobrst?svg=true)](https://ci.appveyor.com/project/Dolittle/dotnet-dependencyinversion-autofac) [![AppVeyor tests](https://img.shields.io/appveyor/tests/Dolittle/dotnet-dependencyinversion-autofac.svg)]() |  |
 | ReadModels.MongoDB | [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/s95va5xrrg57sfdp?svg=true)](https://ci.appveyor.com/project/Dolittle/readmodels-mongodb) [![AppVeyor tests](https://img.shields.io/appveyor/tests/Dolittle/readmodels-mongodb.svg)]() |  |
-
+| Runtime.Events.Storage.Azure | [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/ykb6utw13tn0qbkm?svg=true)](https://ci.appveyor.com/project/Dolittle/runtime-events-storage-azure) [![AppVeyor tests](https://img.shields.io/appveyor/tests/Dolittle/runtime-events-storage-azure.svg)]() |  |
 
 
 
