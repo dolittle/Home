@@ -1,7 +1,7 @@
 # ![Dolittle Logo](Media/Logo.png)
 
 [![Join the chat at https://gitter.im/dolittle/home](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dolittle/home?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Stories in Ready](https://badge.waffle.io/dolittle/home.png?label=ready&title=Ready)](http://waffle.io/dolittle/home)
+
 
 ## Important information
 
@@ -26,15 +26,20 @@ Dolittle consists of quite a few projects all geared towards different aspects. 
 
 | Aspect | Description |
 | ------ | ----------- |
-| [Home / Main](https://github.com/dolittle) | Our landing point - the home of Dolittle |
+| [Home / Main](https://github.com/dolittle) | Our landing point - the home of Dolittle. This is where you'll find things like the [DotNet SDK](http://github.com/dolittle/dotnet.sdk), [Runtime](http://github.com/dolittle/runtime) and [Fundamentals](http://github.com/dolittle/dotnet.fundamentals) |
 | [Interaction](https://github.com/dolittle-interaction) | All interaction layers are found here. An interaction layer is for instance a frontend, API or similar |
 | [Tools](https://github.com/dolittle-tools) | All tools for the platform |
-| [Platform](https://github.com/dolittle-platform) | The closed source part of our platform - it has however all the issues in public |
+| [Platform](https://github.com/dolittle-platform) | Most of Dolittle is open source, but there are aspects associated with the hosted experience that is closed source; this is where you find that. It has however all the issues as a [public repository](https://github.com/dolittle-platform/home) |
 | [Extensions](https://github.com/dolittle-extensions) | The closed source part of our platform - it has however all the issues in public |
 | [Samples](https://github.com/dolittle-samples) | All samples for using Dolittle |
 | [Entropy](https://github.com/dolittle-samples) | When we want to try out new things, we keep them here first |
 | [Boilerplates](https://github.com/dolittle-boilerplates) | Boilerplates for tooling experience for getting started with different projects and artifacts |
 
+## Issues
+
+All the different projects has their own issues and we keep track of everything in our [Waffle Board](https://waffle.io/dolittle/home)
+
+[![Stories in Ready](https://badge.waffle.io/dolittle/home.png?label=ready&title=Ready)](http://waffle.io/dolittle/home)
 ## Packages
 
 | Platform | Production   | From CI  |
