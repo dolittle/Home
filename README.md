@@ -33,6 +33,7 @@ Dolittle consists of quite a few projects all geared towards different aspects. 
 | [Extensions](https://github.com/dolittle-extensions) | The closed source part of our platform - it has however all the issues in public |
 | [Samples](https://github.com/dolittle-samples) | All samples for using Dolittle |
 | [Entropy](https://github.com/dolittle-samples) | When we want to try out new things, we keep them here first |
+| [Contribs](https://github.com/dolittle-contribs) | Contributions to the platform. This is often a stepping stone on becoming formalized into the core frameworks and platform. |
 | [Boilerplates](https://github.com/dolittle-boilerplates) | Boilerplates for tooling experience for getting started with different projects and artifacts |
 
 ## Issues
