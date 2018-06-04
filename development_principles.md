@@ -59,7 +59,8 @@ A concrete example in Dolittle has been the proving of inter-bounded context com
 version that proved all the concepts was built on top of Kafka. While Kafka was not a viable solution for
 the long run.
 
-*Stage 0* is an **OPTIONAL** stage.
+*Stage 0* is an **OPTIONAL** stage. Some functionality don't need this stage as it is ready to be developed
+into *Stage 1* directly.
 
 ## Stage 1
 
