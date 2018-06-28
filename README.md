@@ -36,6 +36,25 @@ Dolittle consists of quite a few projects all geared towards different aspects. 
 | [Contribs](https://github.com/dolittle-contribs) | Contributions to the platform. This is often a stepping stone on becoming formalized into the core frameworks and platform. |
 | [Boilerplates](https://github.com/dolittle-boilerplates) | Boilerplates for tooling experience for getting started with different projects and artifacts |
 
+## Project map
+
+| Project | Description |
+| ------- | ----------- |
+| [DotNET.Build](https://github.com/dolittle/dotnet.build) | Common build, settings and tools for .NET core developers |
+| [DotNET.Fundamentals](https://github.com/dolittle/dotnet.fundamentals) | Fundamental generic building blocks for .NET |
+| [Runtime](https://github.com/dolittle/runtime) | Runtime for Dolittle - this is the core of the platform |
+| [DotNET.SDK])https://github.com/dolittle/dotnet.sdk) | The .NET SDK for interacting with Dolittle |
+| [JavaScript Build)(https://github.com/dolittle/JavaScript.Build) | Common build for JavaScript based repositories |
+| [JavaScript.Fundamentals](https://github.com/dolittle/JavaScript.Fundamentals) | Fundamental generic building blocks for JavaScript |
+| [AspNetCore])(https://github.com/dolittle-interaction/AspNetCore) | The interaction for ASP.NET Core - typically API endpoints |
+| [Styles](https://github.com/dolittle-interaction/Dolittle.styles) | The [Dolittle styles framework](http://styles.dolittle.io) |
+| [JavaScript](https://github.com/dolittle-interaction/JavaScript) | The core reusable JavaScript building blocks for interaction |
+| [JavaScript.Client](https://github.com/dolittle-interaction/JavaScript.Client) | The client reusable JavaScript building blocks for interaction |
+| [Digital Twin Studio](https://github.com/dolittle-interaction/digital_twin_studio) | Our Digital Twin Studio - interaction |
+| [JavaScript.Build.Aurelia](https://github.com/dolittle-interaction/JavaScript.Build.Aurelia) | Our build pipeline for Aurelia based applications |
+| [cli](https://github.com/dolittle-tools/cli) | Command Line Interace for working with the Dolittle platform |
+| [vscode](https://github.com/dolittle-tools/vscode) | Visual Studio Code extension |
+
 ## Issues
 
 All the different projects has their own issues and we keep track of everything in our [Waffle Board](https://waffle.io/dolittle/home)
