@@ -42,6 +42,8 @@ From the base path in which you have your repositories, lets assume you have a D
     +---- ... other repos
 ```
 
+As you can notice, there is a convention at play here - organizations are prefixed with `dolittle-`, whatever comes after the dash is then the name of the folder given. This is not important, but gives you a sense of the thinking and conventions going into this. All the repositories found in main [Dolittle repository](https://github.com/dolittle) is considered "root" or the core building blocks and does not belong in a sub-folder as such.
+
 To enable a faster feedback loop you can now start deploying packages locally and be able to `restore` directly from these
 and also enable local debugging directly.
 
@@ -56,3 +58,5 @@ And since it's most likely a sub-module of the repo you're working in, you'll pr
 ```shell
 $ ./Build/DeployPackagesLocally.sh
 ```
+
+At the time of writing this, the script is not very clever - so some of the sub organization repositories have their own shell scripts for doing the same thing. This will be improved in the future.
