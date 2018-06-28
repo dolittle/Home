@@ -44,7 +44,7 @@ Dolittle consists of quite a few projects all geared towards different aspects. 
 | [DotNET.Fundamentals](https://github.com/dolittle/dotnet.fundamentals) | Fundamental generic building blocks for .NET |
 | [Runtime](https://github.com/dolittle/runtime) | Runtime for Dolittle - this is the core of the platform |
 | [DotNET.SDK](https://github.com/dolittle/dotnet.sdk) | The .NET SDK for interacting with Dolittle |
-| [JavaScript Build)(https://github.com/dolittle/JavaScript.Build) | Common build for JavaScript based repositories |
+| [JavaScript Build](https://github.com/dolittle/JavaScript.Build) | Common build for JavaScript based repositories |
 | [JavaScript.Fundamentals](https://github.com/dolittle/JavaScript.Fundamentals) | Fundamental generic building blocks for JavaScript |
 | [AspNetCore](https://github.com/dolittle-interaction/AspNetCore) | The interaction for ASP.NET Core - typically API endpoints |
 | [Styles](https://github.com/dolittle-interaction/Dolittle.styles) | The [Dolittle styles framework](http://styles.dolittle.io) |
