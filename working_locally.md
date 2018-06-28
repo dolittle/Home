@@ -44,3 +44,15 @@ From the base path in which you have your repositories, lets assume you have a D
 
 To enable a faster feedback loop you can now start deploying packages locally and be able to `restore` directly from these
 and also enable local debugging directly.
+
+In order to do this, simply run the script from a shell:
+
+```shell
+$ ./DeployPackagesLocally.sh
+```
+
+And since it's most likely a sub-module of the repo you're working in, you'll probably have to do this:
+
+```shell
+$ ./Build/DeployPackagesLocally.sh
+```
