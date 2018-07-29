@@ -24,6 +24,31 @@ packages in the source you are expecting, check for disabled sources in any NuGe
   </disabledPackageSources>
 ```
 
+## Debugging locally
+Be sure to read the [README](https://github.com/dolittle/DotNET.Build/blob/master/README.md) for DotNET.Build before starting.
+
+If you want do debug an application into Dolittle's source code, you **have** to follow these instructions:
+
+1. You want to make sure that when building and packing the solutions they use the locally generated packages (the ones the DeployPackagesLocally.sh script creates and copies into the right place in %HOME%/.nuget/packages)
+    * This is not the case for Dolittle/DotNET.Fundamentals, since it does not have dependency on other dolittle packages.
+    * For the other solutions, in the parent directory (the directory where the Build folder is present) there should be a NuGet.Config file, that file should have a reference to the local packages folder.
+    This can be achieved by, for example, having a 
+     ```
+     <add key="local" value="%HOME%/.nuget/packages"/>
+     ``` 
+     as a child of a packageSources tag in the configuration tag in the top-level Nuget.Config file.
+     Note that when you don't want the local v.1000 packages, this package feed source should either be disabled, or you can delete the local packages by running the DeleteLocalPackages.sh script in Build. 
+2. It is really important that you deploy the packages in the right order
+    1. Dolittle/DotNET.Fundamentals
+    2. Dolittle/Runtime
+    3. Dolittle/DotNET.SDK
+    4. All other dependencies
+        * Note that the other dependencies **should** not have dependencies on each other. If they have, then there can be trouble when creating the packages.
+        If you're having trouble with dependencies (assemblies not loading or similar errors at startup) then this might be the cause. Check the other dependencies if they have dependencies on each other and build and package them in the correct ordering.
+  
+4. Make sure that the application that you want to debug also has a packageSource reference to %HOME%/.nuget/packages. Do a dotnet clean && nuget restore && dotnet restore to ensure that the solution is using the locally deployed packages.
+
+5. Happy debugging!
 
 ## Working across multiple projects
 
@@ -71,12 +96,3 @@ other versions of the framework dlls that it relies on and lead to a "dll hell" 
 As well as hard-coded versions, you should have local versions built for all dolittle framework dlls used in your client project.  For the same reason as a hard-coded version, a non local built version will not hit the local nuget cache and will pull down a different version of the framework.  
 
 When using workspaces in VSCode, be aware that things may be excluded from the Workspace that include references to other versions of the Dolittle framework.  These will not be detected by search from within VSCode.
-
-When building the local packages from source, it is recommended to do the following steps:
-```shell
-$ dotnet clean
-$ dotnet restore
-$ dotnet build
-$ ./Build/DeployPackagesLocally.sh
-```
-build will do a restore but it is easier to check the output of a restore separately from a build.
