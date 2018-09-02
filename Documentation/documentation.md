@@ -85,4 +85,4 @@ other purposes and for future expansion.
 
 ## Documentation filenames
 
-All files should be lower cased, words **MUST** be separated with underscore. Example: [*csharp_coding_styles.md*](chsarp_coding_styles.md).
+All files should be lower cased, words **MUST** be separated with underscore. Example: [*csharp_coding_styles.md*](csharp_coding_styles.md).
