@@ -13,9 +13,23 @@ The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL 
 
 Documentation is a key success factor for adoption. This document describes the requirements for documentation.
 
+## Convention and structure
+
+Every repository has a `Documentation` folder in the root of it. The documentation engine is configured with well known repositories
+that can contribute into the documentation as a whole. The type of content that goes into the `Documentation` folder is articles that explain
+how particular subjects / topics work.
+
+It is OK to add nodes to the hierarchy; this is done through folders. Grouping topics and having sub-topics will automatically show up in the
+navigation of the documentation.
+
+## General Articles
+
+Articles that are of a general nature and does not really belong directly in either of the different repositories **SHOULD** be added to the
+[documentation](https://github.com/dolittle/documentation) repository following the same conventions as for everything else.
+
 ## API Documentation
 
-All pubic APIs **MUST** be documented.
+All public APIs **MUST** be documented regardless of what language and use-case.
 
 ### C# XML Comments
 
@@ -24,13 +38,9 @@ A tutorial can also be found [here](https://msdn.microsoft.com/en-us/library/aa2
 
 For inheritance in documentation, you can use the [`<ineritdoc/>`](https://ewsoftware.github.io/XMLCommentsGuide/html/86453FFB-B978-4A2A-9EB5-70E118CA8073.htm).
 
-> [!Note]
-> This is relying on support in [DocFX](http://dotnet.github.io/docfx/).
-> Which seems to be [coming](https://github.com/dotnet/docfx/pull/1178)
-
 ### JavaScript
 
-** WORK IN PROGRESS **
+All JavaScript files **MUST** be documented using JSDoc as defined [here](http://usejsdoc.org.)
 
 ## Markdown
 
@@ -41,21 +51,21 @@ and [Sublime Text](http://sublimetext.com) comes highly recommended.
 
 Since the documentation is built by DocFX, you should read up on the markdown supported by it and extensions it supports [here](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html).
 
-
 ### Highlighting - notes
 
 Sometimes you need to highlight something with a note. You **MUST** use the following type:
 
 ```markdown
-> [!Note]
-> Notes can have [links](https://github.com/dolittle/DotNET.Core) and **formatting**
+{{% block note %}}
+Notes can have [links](https://github.com/dolittle/home) and **formatting**
+{{% /block %}}
 ```
 
 this results in:
 
-> [!Note]
-> Notes can have [links](https://github.com/dolittle/DotNET.Core) and **formatting**
-
+{{% block note %}}
+Notes can have [links](https://github.com/dolittle/home) and **formatting**
+{{% /block %}}
 
 ### Metadata
 
@@ -73,16 +83,6 @@ author: einari (your GitHub accountname)
 Some of this metadata gets put into the generated HTML file and some of it is used for indexing and
 other purposes and for future expansion.
 
-## File names
+## Documentation filenames
 
-All files should be lower cased. In case of multiple words and concepts that would be in codefiles **CamelCase** you **MUST** seperate
-with underscore **_** instead. For instance: [*csharp_coding_styles.md*](chsarp_coding_styles.md).
-
-## DocFX
-
-For processing all the documentation we're using [DocFX](http://dotnet.github.io/docfx/).
-It takes the API documentation and all the markdown articles and genereates HTML for us and it gets published during
-the continuous build running.
-
-
-** More details to come **.
+All files should be lower cased, words **MUST** be separated with underscore. Example: [*csharp_coding_styles.md*](chsarp_coding_styles.md).
