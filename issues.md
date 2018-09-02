@@ -44,3 +44,6 @@ Also possible to do from Waffle by clicking the number of the issue in the upper
 
 ![](images/epic_waffle_label.png)
 
+## Stories
+
+## Tasks
