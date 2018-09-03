@@ -56,16 +56,16 @@ Since the documentation is built by DocFX, you should read up on the markdown su
 Sometimes you need to highlight something with a note. You **MUST** use the following type:
 
 ```markdown
-{{% block note %}}
+{{% notice note %}}
 Notes can have [links](https://github.com/dolittle/home) and **formatting**
-{{% /block %}}
+{{% /notice %}}
 ```
 
 this results in:
 
-{{% block note %}}
+{{% notice note %}}
 Notes can have [links](https://github.com/dolittle/home) and **formatting**
-{{% /block %}}
+{{% /notice %}}
 
 ### Metadata
 
