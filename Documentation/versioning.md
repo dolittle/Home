@@ -40,4 +40,3 @@ The C# version type used in AssemblyInfo has 4 numbers and will therefor always
 follow the following pattern:
 
 `<major>.<minor>.<patch>.<build>`
-
