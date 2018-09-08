@@ -105,7 +105,7 @@ public interface ICanConfigure {}
 
 // Implemented by a type that can provide a container instance
 public interface ICanCreateContainer
-````
+```
 
 You **SHOULD** try look for this way of naming, as it provides a whole new level
 of meaning to the code.
