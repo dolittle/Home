@@ -1,5 +1,5 @@
 ---
-title: Runtime exceptions
+title: Null - the billion dollar mistake
 description: Learn about how to work with runtime exceptions in code
 keywords: Contributing
 author: einari
