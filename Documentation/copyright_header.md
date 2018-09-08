@@ -1,5 +1,5 @@
 ---
-title: About copyright header
+title: Copyright header
 description: Learn about the requirements of copyright headers in code files
 keywords: Contributing
 author: einari

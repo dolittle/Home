@@ -1,5 +1,5 @@
 ---
-title: About contributing
+title: Contributing
 description: Learn about how to contribute
 keywords: Contributing
 author: einari

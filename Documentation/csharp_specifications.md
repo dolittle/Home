@@ -1,5 +1,5 @@
 ---
-title: About C# Specifications
+title: C# Specifications
 description: Learn about how to write C# specifications
 keywords: Contributing
 author: einari

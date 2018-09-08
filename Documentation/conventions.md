@@ -1,5 +1,5 @@
 ---
-title: About conventions
+title: Conventions
 description: Learn about how Dolittle builds on conventions
 keywords: General
 author: einari

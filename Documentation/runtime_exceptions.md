@@ -1,5 +1,5 @@
 ---
-title: About runtime exceptions
+title: Runtime exceptions
 description: Learn about how to work with runtime exceptions in code
 keywords: Contributing
 author: einari

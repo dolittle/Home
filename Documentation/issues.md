@@ -1,5 +1,5 @@
 ---
-title: About submitting issues
+title: Submitting issues
 description: Learn about how to submit issues
 keywords: Contributing
 author: einari

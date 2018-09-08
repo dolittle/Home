@@ -1,5 +1,5 @@
 ---
-title: About C# coding styles
+title: C# coding styles
 description: Learn about how to write C# in Dolittle
 keywords: Contributing
 author: einari

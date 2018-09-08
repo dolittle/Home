@@ -1,5 +1,5 @@
 ---
-title: About versioning
+title: Versioning
 description: Learn about how Dolittle is versioned
 keywords: General
 author: einari
