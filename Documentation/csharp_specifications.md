@@ -3,6 +3,7 @@ title: C# Specifications
 description: Learn about how to write C# specifications
 keywords: Contributing
 author: einari
+weight: 11
 ---
 # CSharp Specifications
 

@@ -3,6 +3,7 @@ title: Submitting issues
 description: Learn about how to submit issues
 keywords: Contributing
 author: einari
+weight: 6
 ---
 # Issues
 

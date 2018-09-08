@@ -3,6 +3,7 @@ title: Conventions
 description: Learn about how Dolittle builds on conventions
 keywords: General
 author: einari
+weight: 3
 ---
 # Conventions
 

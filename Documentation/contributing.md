@@ -3,6 +3,7 @@ title: Contributing
 description: Learn about how to contribute
 keywords: Contributing
 author: einari
+weight: 1
 ---
 
 # Contributing to Dolittle
