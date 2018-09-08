@@ -107,8 +107,7 @@ public interface ICanConfigure {}
 public interface ICanCreateContainer
 ```
 
-You **SHOULD** try look for this way of naming, as it provides a whole new level
-of meaning to the code.
+You **SHOULD** try look for this way of naming, as it provides a whole new level of expressing intent in the code.
 
 ## Private methods
 
