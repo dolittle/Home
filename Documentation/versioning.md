@@ -5,8 +5,6 @@ keywords: General
 author: einari
 weight: 6
 ---
-# Versioning
-
 Dolittle follows the [Semantic Versioning v2](https://semver.org) versioning scheme.
 
 Deviation from the standard; due to filesystem limitations, the **+** for build numbers is a **-**.

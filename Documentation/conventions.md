@@ -5,8 +5,6 @@ keywords: General
 author: einari
 weight: 3
 ---
-# Conventions
-
 ## Upper CamelCase vs lower camelCase
 
 All C# code consistently uses upper CamelCase - also called Pascal Case.
