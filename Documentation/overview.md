@@ -249,7 +249,7 @@ talks about totally segregating the read from the write and treat them uniquely.
 One finds [event sourcing](../Backend/Events/event_sourcing.md) often associated with CQRS, something that Dolittle has embraced and helps
 bridge the two sides and stay completely decoupled. It is an optional part of Dolittle but hightly recommended together with an [event store](../Backend/Events/event_store.md).
 
-![Simple CQRS Diagram](images/cqrs.png)
+![Simple CQRS Diagram](https://github.com/dolittle/home/raw/master/Documentation/images/cqrs.png)
 
 ## Model View View Model
 
@@ -293,11 +293,11 @@ Read more about the JavaScript support [here](../Frontend/JavaScript).
 
 A traditional MVVM would look something like this:
 
-![MVVM Architectural Diagram](images/mvvm.png)
+![MVVM Architectural Diagram](https://github.com/dolittle/home/raw/master/Documentation/images/mvvm.png)
 
 With the artifacts found in Dolittle and more separation in place with CQRS, the diagram looks slightly different
 
-![MVVM Architectural Diagram - Dolittle artifacts](images/mvvm_Dolittle.png)
+![MVVM Architectural Diagram - Dolittle artifacts](https://github.com/dolittle/home/raw/master/Documentation/images/mvvm_Dolittle.png)
 
 You can read more details about the MVVM pattern [here](https://en.wikipedia.org/wiki/Model–view–viewmodel).
 
@@ -390,8 +390,7 @@ Divide only by the tier the artifacts belong to. See Example below.
 
 Below is the full pipeline of Dolittle when utilizing all its capabilities.
 
-![Dolittle Pipeline](images/full_pipeline.png)
-
+![Dolittle Pipeline](https://github.com/dolittle/home/raw/master/Documentation/images/full_pipeline.png)
 
 ## Conclusion
 

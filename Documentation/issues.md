@@ -46,15 +46,15 @@ same epic many times. You simply have the same text `child of <url to the issue 
 
 The epic will look like as follows in Waffle:
 
-![](images/epic.png)
+![](https://github.com/dolittle/home/raw/master/Documentation/images/epic.png)
 
 In addition to this, we label the epics in GitHub to be able to identify these in GitHub:
 
-![](images/epic_github_label.png)
+![](https://github.com/dolittle/home/raw/master/Documentation/images/epic_github_label.png)
 
 Also possible to do from Waffle by clicking the number of the issue in the upper left corner:
 
-![](images/epic_waffle_label.png)
+![](https://github.com/dolittle/home/raw/master/Documentation/images/epic_waffle_label.png)
 
 ## Stories
 
