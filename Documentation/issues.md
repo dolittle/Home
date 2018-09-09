@@ -1,5 +1,5 @@
 ---
-title: Submitting issues
+title: Issues
 description: Learn about how to submit issues
 keywords: Contributing
 author: einari
@@ -13,7 +13,7 @@ Dolittle has a default issue template when you create an issue in GitHub.
 The template is targetting bugs. For any bugs or problems, please follow the template.
 
 In Dolittle we use [Waffle](https://waffle.io) to manage our internal process of what to prioritize at any given point.
-We use its canban to pull work through and use it in general for planning our milestones.
+We use its kanban to pull work through and use it in general for planning our milestones.
 With this it becomes our living roadmap at the same time.
 
 ## Milestones
@@ -21,7 +21,7 @@ With this it becomes our living roadmap at the same time.
 The top level of our planning sits milestones. We plan based on versions that we want to release.
 Often associated with a milestone is a date that is being set.
 
-![](images/milestone.png)
+![](https://github.com/dolittle/home/raw/master/Documentation/images/milestone.png)
 
 ## Epics
 
