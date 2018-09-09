@@ -12,7 +12,7 @@ The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL 
 You can contribute through the issues on any of the repositories in all the organizations found listed [here](https://github.com/dolittle/home)
 If you want to contribute with code, you can submit a pull request with your changes.
 This project has adopted the code of conduct defined by the [Contributor Covenant](http://contributor-covenant.org/) to clarify expected behavior in our community.
-For more information see the [.NET Foundation Code of Conduct](http://www.dotnetfoundation.org/code-of-conduct). Read the [Code of Conduct](../CODE_OF_CONDUCT.md).
+For more information see the [.NET Foundation Code of Conduct](http://www.dotnetfoundation.org/code-of-conduct). Read the [Code of Conduct](https://github.com/dolittle/Home/blob/master/CODE_OF_CONDUCT.md).
 
 If you want to contribute to the documentation, you can do so by either using the "Improve this Doc" link at the top or
 submit a pull request with documentation changes. The documentation sits inside the `Documentation` folder in the repository.
@@ -44,9 +44,9 @@ Dolittle is hosted on [GitHub](http://github.com) [here](http://github.com/dolit
 When submitting a pull request, the code will be reviewed.
 The things that are being looked at is as follows:
 
-- Does it adhere to the vision. Get an idea from [here](overview.md)
+- Does it adhere to the vision. Get an idea from [here](overview)
 - Naming of types, variables
-- Does the code adhere to the patterns, practices and principles Dolittle is built upon (SOLID, SOC ++) - read more [here](overview.md)
+- Does the code adhere to the patterns, practices and principles Dolittle is built upon (SOLID, SOC ++) - read more [here](overview)
 
 ## Specifications / Tests
 
@@ -57,4 +57,4 @@ we specified it to be and we don't get regressions.
 
 Every pull request must have specifications that are passing associated with it as described below.
 
-Read more about how this is done for [C#](csharp_specifications.md) and [JavaScript](javascript_specifications.md).
+Read more about how this is done for [C#](csharp_specifications) and [JavaScript](javascript_specifications).

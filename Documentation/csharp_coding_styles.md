@@ -16,7 +16,7 @@ pull requests.
 ## Patterns & Practices
 
 It is assumed that all code written is adhering to the patterns & practices described in the
-[overview](overview.md) article.
+[overview](overview) article.
 
 ## Compactness
 
