@@ -1,3 +1,11 @@
+---
+title: Development Principles
+description: Learn about Development Principles
+keywords: Development, Principles
+author: einari
+weight: 12
+---
+
 # Development Principles
 
 The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”,
