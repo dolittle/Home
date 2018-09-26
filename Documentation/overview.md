@@ -3,6 +3,7 @@ title: General Overview
 description: Learn about all the background and thinking behind Dolittle 
 keywords: Overview
 author: einari
+weight: 4
 ---
 # Overview
 
