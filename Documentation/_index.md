@@ -1,6 +1,6 @@
 ---
-title: "General"
-weight: 6
+title: "Guidelines"
+weight: 10
 ---
 
 This is the about page
