@@ -14,4 +14,4 @@ often caused by faulty infrastructure. At times there are exceptions that are va
 As long as it there is no way to recover an exception is fine. You should not throw an exception and let a caller of your API
 deal with the recovery of an exception. Exceptions **MUST** be considered unrecoverable.
 
-Naming of exceptions is covered by the [C# Coding Styles](csharp_coding_styles).
+Naming of exceptions is covered by the [C# Coding Styles]({{< relref csharp_coding_styles >}}).
