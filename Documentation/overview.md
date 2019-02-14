@@ -171,7 +171,7 @@ Rather than a system knowing about concrete types and taking also on the respons
 We can quite easily define on a constructor level the dependencies it needs and let a consumer provide the dependencies.
 This is often dealt with by introducing an [IOC](https://en.wikipedia.org/wiki/Inversion_of_control) container into the system.
 Dolittle is built around this principle and relies on all dependencies to be provided to it.
-It also assumes one has a container in place, read more [here](../Backend/container.md).
+It also assumes one has a container in place, read more ~~[here](../Backend/container.md)~~.
 
 ## Seperation of Concerns
 
@@ -179,7 +179,7 @@ Another part of breaking up the system is to identify and understand the differe
 An example of this is in the frontend, take a view for instance. It consists of flow, styling and logic. All these are
 different concerns that we can extract into their own respective files and treat independently; HTML, CSS, JavaScript.
 Other good examples are validation, instead of putting the validation as attributes on a model in C# - separate these into their
-own files like [Dolittle enforces](../Backend/validation.md).
+own files like ~~[Dolittle enforces](../Backend/validation.md)~~.
 
 Read more in details about it [here](https://en.wikipedia.org/wiki/Separation_of_concerns).
 
@@ -200,8 +200,8 @@ Dolittle aims to help with.
 
 Dolittle is heavily relying on different types of discovering mechanisms.
 For the C# code the discovery is all about types. It relies on being able to discover concrete types, but also implementations of interfaces.
-Through this it can find the things it needs. You can read more about the type discovery mechanism [here](../Backend/type_discovery.md).
-It automatically knows about all the assemblies and the types in your system through the [assembly discovery](../Backend/assembly_discovery.md)
+Through this it can find the things it needs. You can read more about the type discovery mechanism ~~[here](../Backend/type_discovery.md)~~.
+It automatically knows about all the assemblies and the types in your system through the ~~[assembly discovery](../Backend/assembly_discovery.md)~~
 done at startup.
 
 ## Cross Cutting Concerns
@@ -209,7 +209,7 @@ done at startup.
 When concerns are seperated out, some of these can be applied cross cuttingly. [Aspect-oriented programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
 is one way of applying these. Other ways could be more explicitly built into the code; something that Dolittle enables.
 The point of this is to be able to cross-cuttingly enforce code. Things that typically are repetitive tasks that a developer needs
-to remember to do are good candidates for this. It could also be more explicit like the [security descriptors](../Backend/security_descriptor.md)
+to remember to do are good candidates for this. It could also be more explicit like the ~~[security descriptors](../Backend/security_descriptor.md)~~
 in Dolittle that enables one to declaratively set up authorization rules across namespaces for instance.
 This type of thinking can enable a lot of productivity and makes the code base less errorprone to things that needs to be remembered,
 it can be put in place one time and one can rely on it. Patterns like [chain-of-responsibility](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
@@ -275,7 +275,7 @@ it can execute. This proves very handy when you want to validate things and not 
 Dolittle has the concept of commands, these are slightly different however. In fact, commands in Dolittle is a part of the domain.
 It is the thing that describes the users intent. You can read more about them [here]({{< relref about_commands >}}).
 In the Dolittle JavaScript frontend however, the type of properties found with the XAML platforms
-can also be found here. Read more about the frontend commands [here](../Frontend/JavaScript/commands.md).
+can also be found here. Read more about the frontend commands ~~[here](../Frontend/JavaScript/commands.md)~~.
 
 ### Binding
 
@@ -286,9 +286,9 @@ and [INotifyCollectionChanged](https://msdn.microsoft.com/en-us/library/system.c
 for collections.
 
 Dolittle have full client support for both XAML based clients and also for JavaScript / Web based.
-For XAML and what is supported, read more in detail [here](../Frontend/XAML).
+For XAML and what is supported, read more in detail ~~[here](../Frontend/XAML)~~.
 For the JavaScript support, Dolittle has been built on top of [Knockout](http://knockoutjs.com) that provides ``obervable()`` and ``observableArray()``.
-Read more about the JavaScript support [here](../Frontend/JavaScript).
+Read more about the JavaScript support ~~[here](../Frontend/JavaScript)~~.
 
 ### Figures
 
