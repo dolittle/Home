@@ -1,5 +1,5 @@
 ---
-title: Contributing
+title: How to Contribute
 description: Learn about how to contribute
 keywords: Contributing
 author: einari
@@ -44,9 +44,9 @@ Dolittle is hosted on [GitHub](http://github.com) [here](http://github.com/dolit
 When submitting a pull request, the code will be reviewed.
 The things that are being looked at is as follows:
 
-- Does it adhere to the vision. Get an idea from [here](overview)
+- Does it adhere to the vision. Get an idea from [here]({{< relref overview>}})
 - Naming of types, variables
-- Does the code adhere to the patterns, practices and principles Dolittle is built upon (SOLID, SOC ++) - read more [here](overview)
+- Does the code adhere to the patterns, practices and principles Dolittle is built upon (SOLID, SOC ++) - read more [here]({{< relref overview >}})
 
 ## Specifications / Tests
 
@@ -57,4 +57,4 @@ we specified it to be and we don't get regressions.
 
 Every pull request must have specifications that are passing associated with it as described below.
 
-Read more about how this is done for [C#](csharp_specifications) and [JavaScript](javascript_specifications).
+Read more about how this is done for [C#]({{< relref csharp_specifications >}}) and [JavaScript]({{< relref javascript_specifications >}}).
