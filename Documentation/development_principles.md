@@ -46,7 +46,7 @@ lines, but close to a 100% coverage of critical logic and the interaction betwee
 ### Core Principles
 
 At the heart of everything we do sits core principles that are considered **REQUIRED**.
-Read more [here](http://www.dolittle.io/Articles/contributing.html) and for more context, read [here](http://www.dolittle.io/Articles/overview.html).
+Read more [here]({{< relref contributing >}}) and for more context, read [here]({{< relref overview >}}).
 
 ### Logging
 

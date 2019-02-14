@@ -97,21 +97,21 @@ building blocks as long as it makes sense.
 #### Value Object
 
 A value object is an object that contains attributes but has no conceptual identity. They should be treated as immutable.
-In Dolittle you'll find the [concept](../Backend/concepts.md) value object as a good example. Value objects does not hold
+In Dolittle you'll find the [concept]({{< relref concepts_and_value_objects >}}) value object as a good example. Value objects does not hold
 identity that make them unique in a system. For instance multiple persons can live on the same address, making the address
 a great candidate for a value object as it is not a unique identifier.
 
 #### Aggregate
 
 Aggregates represents a collection of objects that are bound together to form a root entity. In Dolittle you'll find the
-[AggregateRoot](../Backend/aggregate_root.md) that represents this. Important aspect of the aggregate in Dolittle is
+[AggregateRoot]({{< relref aggregate_root >}}) that represents this. Important aspect of the aggregate in Dolittle is
 however that it does not expose any public state, whatever entities it relies on should only be used internally to
-be able to perform business logic. The ``AggregateRoot``is also what is known as an [EventSource](../Backend/Events/event_sourcing.md).
+be able to perform business logic. The ``AggregateRoot``is also what is known as an [EventSource]({{< relref event_sourcing >}}).
 
 ### Entity
 
 Entities are the artifacts that aggregates can use to form the root entity. They are uniquely identified in the system.
-For [aggregate roots](../Backend/aggregate_root.md) in Dolittle, it is about modelling the business logic that belong together.
+For [aggregate roots]({{< relref aggregate_root >}}) in Dolittle, it is about modelling the business logic that belong together.
 
 > [!Note]
 > As of December 2016, Dolittle does not have a specific construct for this
@@ -122,19 +122,19 @@ For [aggregate roots](../Backend/aggregate_root.md) in Dolittle, it is about mod
 The repository pattern is all about providing an abstraction for working with domain objects and be storage agnostic, but focused
 around the needs of the domain model.
 Since Dolittle is built around the concept of [CQRS](https://en.wikipedia.org/wiki/Command–query_separation#Command_Query_Responsibility_Segregation),
-the domain repository is one that knows how to work with [aggregate roots](../Backend/aggregate_root.md).
+the domain repository is one that knows how to work with [aggregate roots]({{< relref aggregate_root >}}).
 
 #### Service
 
 When operations conceptually does not belong to the domain object, you can pull in supporting services.
 These are not something the aggregate knows about, but something that knows about both and coordinates it.
-In Dolittle this would be the [CommandHandler](../Backend/Commands/command_handler.md)
+In Dolittle this would be the [CommandHandler]({{< relref command_handler >}})
 
 #### Domain Events
 
-Important part of modelling the domain are the [domain events](../Backend/Events/introduction.md). These are the things
+Important part of modelling the domain are the [domain events]({{< relref domain_events >}}). These are the things
 the domain experts talk about, the consequences, the things that happens in the system. Domain events represents the actual
-state transitions in a system. The [AggregateRoot](../Backend/aggregate_root.md) is the place where events are produced.
+state transitions in a system. The [AggregateRoot]({{< relref aggregate_root >}}) is the place where events are produced.
 
 ## SOLID
 
@@ -149,13 +149,13 @@ Every class should have a single responsibility.
 ### Open / Closed Principle
 
 Systems and its entities should be open for extension, but closed for modification.
-A good examples of this is how you can extend your system quite easily by just putting in new [event processor](../Backend/Events/event_processor.md)
+A good examples of this is how you can extend your system quite easily by just putting in new [event processor]({{< relref event_processors >}})
 without having to change the internals of Dolittle.
 
 ### Liskov Substition Principle
 
 Objects in a program should be replacead with instances of their subtypes without altering the correctness of that program.
-An example of how Dolittle follows this is for instance the [event store](../Backend/Events/event_store.md) works.
+An example of how Dolittle follows this is for instance the [event store]({{< relref event_store >}}) works.
 It has multiple implementations and the contract promises what it can do, implementations need to adhere to the contract.
 
 ### Interface Segregation Principle
@@ -239,7 +239,7 @@ The conventions at play are described throughout the documentation when it is re
 
 Part of being able to move fast with precision is having a good automated test regime. One that runst fast and can be relied upon for avoiding
 regressions. Dolittle was built from day one with automated tests, or rather Specs - specifications. You can read more about how Dolittle
-does this [here](contributing.md).
+does this [here]({{< relref how_to_contribute >}}).
 
 ## CQRS
 
@@ -247,8 +247,8 @@ Most systems has different requirements for the read and the write part of each 
 needed to be written in relation to what is being read and used. The performance characteristics are also for the most part different.
 Most line-of-business applications tend to read a lot more than they write. [CQRS](https://en.wikipedia.org/wiki/Command–query_separation#Command_Query_Responsibility_Segregation)
 talks about totally segregating the read from the write and treat them uniquely.
-One finds [event sourcing](../Backend/Events/event_sourcing.md) often associated with CQRS, something that Dolittle has embraced and helps
-bridge the two sides and stay completely decoupled. It is an optional part of Dolittle but hightly recommended together with an [event store](../Backend/Events/event_store.md).
+One finds [event sourcing]({{< relref event_sourcing >}}) often associated with CQRS, something that Dolittle has embraced and helps
+bridge the two sides and stay completely decoupled. It is an optional part of Dolittle but hightly recommended together with an [event store]({{< relref event_store >}}).
 
 ![Simple CQRS Diagram](https://github.com/dolittle/home/raw/master/Documentation/images/cqrs.png)
 
@@ -260,7 +260,7 @@ Its the most commonly used pattern in XAML based platforms such as WPF, Silverli
 ### Model
 
 The model refers to state being used typically originating from a server component such as a database.
-It is often referred to as the domain model. In the context of Dolittle, this would typically be the [ReadModel](read_model.md).
+It is often referred to as the domain model. In the context of Dolittle, this would typically be the [ReadModel]({{< relref read_model >}}).
 
 ### View
 
@@ -273,7 +273,7 @@ In XAML the behaviors is represented by a [command](https://msdn.microsoft.com/e
 something that wraps the behavior and provides a point for execution but also the ability to check wether or not
 it can execute. This proves very handy when you want to validate things and not be able to execute unless one is valid or is authorized.
 Dolittle has the concept of commands, these are slightly different however. In fact, commands in Dolittle is a part of the domain.
-It is the thing that describes the users intent. You can read more about them [here](../Backend/Commands/introduction.md).
+It is the thing that describes the users intent. You can read more about them [here]({{< relref about_commands >}}).
 In the Dolittle JavaScript frontend however, the type of properties found with the XAML platforms
 can also be found here. Read more about the frontend commands [here](../Frontend/JavaScript/commands.md).
 

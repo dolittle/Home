@@ -78,7 +78,7 @@ This means that every pull request that gets merged will have a unique version n
 
 ## Issues
 
-Issues are to be associated with every pull request (read more [here](issues.md)).
+Issues are to be associated with every pull request (read more [here]({{< relref issues >}})).
 This information is used to create the changelog and versioning. Labeling of these issues is therefor
 vital.
 
