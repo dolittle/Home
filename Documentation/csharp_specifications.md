@@ -5,9 +5,6 @@ keywords: Contributing
 author: einari
 weight: 11
 ---
-The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”,
-“RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in
-[RFC 2119](https://tools.ietf.org/html/rfc2119).
 
 All the C# code has been specified by using [Machine Specifications](http://github.com/machine/machine.specifications) with an adapted style.
 Since we're using this for specifying units as well, we have a certain structure to reflect this. The structure is reflected in the folder structure and naming of files.

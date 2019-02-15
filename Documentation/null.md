@@ -5,9 +5,6 @@ keywords: Contributing
 author: einari
 weight: 7
 ---
-The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”,
-“RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in
-[RFC 2119](https://tools.ietf.org/html/rfc2119).
 
 **Null** in code can be referred to the [billion dollar mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare).
 You **MUST** at all times try to avoid using **null**. If you have something that is optional, don't use **null** as a way to check

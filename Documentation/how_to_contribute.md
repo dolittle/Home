@@ -5,9 +5,6 @@ keywords: Contributing
 author: einari
 weight: 1
 ---
-The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”,
-“RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in
-[RFC 2119](https://tools.ietf.org/html/rfc2119).
 
 You can contribute through the issues on any of the repositories in all the organizations found listed [here](https://github.com/dolittle/home)
 If you want to contribute with code, you can submit a pull request with your changes.
