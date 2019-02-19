@@ -5,9 +5,6 @@ keywords: Contributing
 author: einari
 weight: 7
 ---
-The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”,
-“RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in
-[RFC 2119](https://tools.ietf.org/html/rfc2119).
 
 Exceptions should not be considered a way to do program flow. Exceptions should be treated as an exceptional state of the system
 often caused by faulty infrastructure. At times there are exceptions that are valid due to developers not using an API right.
