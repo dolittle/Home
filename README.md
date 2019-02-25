@@ -2,10 +2,6 @@
 
 [![Join the chat at https://gitter.im/dolittle/home](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dolittle/home?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-## Important information
-
-Since Dolittle is in **alpha** and in a volatile state with things moving around and you want to try things out. You might want to consider looking at the stabile version called [Bifrost](https://github.com/dolittle/bifrost) with its documentation sitting [here](http://www.dolittle.io/bifrost).
-
 ## Issues
 
 All the different projects has their own issues and we keep track of everything in our [Waffle Board](https://waffle.io/dolittle/home)
