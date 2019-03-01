@@ -28,8 +28,10 @@ Dolittle consists of quite a few projects all geared towards different aspects. 
 
 | Aspect | Description |
 | ------ | ----------- |
-| [Home / Main](https://github.com/dolittle) | Our landing point - the home of Dolittle. This is where you'll find things like the [DotNet SDK](http://github.com/dolittle/dotnet.sdk), [Runtime](http://github.com/dolittle/runtime) and [Fundamentals](http://github.com/dolittle/dotnet.fundamentals) |
+| [Home / Main](https://github.com/dolittle) | Our landing point and spring board to the different aspects of the world of Dolittle |
+| [Runtime](https://github.com/dolittle-runtime) | The core of the Dolittle Runtime. This is where you'll find things like the [DotNet SDK](https://github.com/dolittle-runtime/dotnet.sdk), [Runtime](https://github.com/dolittle-runtime/runtime) |
 | [Interaction](https://github.com/dolittle-interaction) | All interaction layers are found here. An interaction layer is for instance a frontend, API or similar |
+| [Fundamentals](https://github.com/dolittle-fundamentals) | Fundamental, reusable building blocks. Contains projects like [.NET Fundamentals](http://github.com/dolittle-fundamentals/dotnet.fundamentals) and [JavaScript Fundamentals](http://github.com/dolittle-fundamentals/javascript.fundamentals) |
 | [Tools](https://github.com/dolittle-tools) | All tools for the platform |
 | [Platform](https://github.com/dolittle-platform) | Most of Dolittle is open source, but there are aspects associated with the hosted experience that is closed source; this is where we keep these - privately. All issues are however represented by a [public repository](https://github.com/dolittle-platform/home) |
 | [Extensions](https://github.com/dolittle-extensions) | All extensions provided to the frameworks and platform is found here. For instance things like our [Autofac](https://github.com/dolittle-extensions/DotNET.DependencyInversion.Autofac) support, or [MongoDB Event Store](https://github.com/dolittle-extensions/Runtime.Events.MongoDB) |
@@ -43,15 +45,15 @@ Dolittle consists of quite a few projects all geared towards different aspects. 
 | Project | Description |
 | ------- | ----------- |
 | [DotNET.Build](https://github.com/dolittle/dotnet.build) | Common build, settings and tools for .NET core developers |
-| [DotNET.Fundamentals](https://github.com/dolittle/dotnet.fundamentals) | Fundamental generic building blocks for .NET |
-| [DotNET.SDK](https://github.com/dolittle/dotnet.sdk) | The .NET SDK for interacting with Dolittle |
+| [DotNET.Fundamentals](https://github.com/dolittle-fundamentals/dotnet.fundamentals) | Fundamental generic building blocks for .NET |
+| [DotNET.SDK](https://github.com/dolittle-runtime/dotnet.sdk) | The .NET SDK for interacting with Dolittle |
 | [DotNET.DependencyInversion.Autofac](https://github.com/dolittle-extensions/DotNET.DependencyInversion.Autofac.sdk) | The .NET SDK for interacting with Dolittle |
-| [Runtime](https://github.com/dolittle/runtime) | Runtime for Dolittle - this is the core of the platform |
+| [Runtime](https://github.com/dolittle-runtime/runtime) | Runtime for Dolittle - this is the core of the platform |
 | [MongoDB Event Store](https://github.com/dolittle-extensions/Runtime.Events.MongoDB) | Event Store implementation for MongoDB |
 | [In Memory Event Store](https://github.com/dolittle-extensions/Runtime.Events.InMemory) | Event Store implementation for InMemory |
 | [MongoDB Read Models](https://github.com/dolittle-extensions/ReadModels.MongoDB) | ReadModel support for for MongoDB |
 | [JavaScript Build](https://github.com/dolittle/JavaScript.Build) | Common build for JavaScript based repositories |
-| [JavaScript.Fundamentals](https://github.com/dolittle/JavaScript.Fundamentals) | Fundamental generic building blocks for JavaScript |
+| [JavaScript.Fundamentals](https://github.com/dolittle-fundamentals/JavaScript.Fundamentals) | Fundamental generic building blocks for JavaScript |
 | [AspNetCore](https://github.com/dolittle-interaction/AspNetCore) | The interaction for ASP.NET Core - typically API endpoints |
 | [Styles](https://github.com/dolittle-interaction/Dolittle.styles) | The [Dolittle styles framework](http://styles.dolittle.io) |
 | [JavaScript](https://github.com/dolittle-interaction/JavaScript) | The core reusable JavaScript building blocks for interaction |
