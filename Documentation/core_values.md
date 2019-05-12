@@ -3,7 +3,7 @@ title: Core values
 description: Learn about what we at Dolittle believe in
 keywords: General
 author: einari
-weight: 4
+weight: 2
 ---
 
 At Dolittle we believe that good software stems from a set of core values.
