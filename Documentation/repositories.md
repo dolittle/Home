@@ -3,7 +3,7 @@ title: Repositories
 description: Learn about how Dolittles and the repository structures
 keywords: General
 author: einari
-weight: 5
+weight: 11
 ---
 
 All of Dolittle repositories aim for consistency in naming, structure, folder names.
@@ -53,7 +53,8 @@ on the documentation site.
 
 Samples that show concrete examples directly linked to what the repository represents,
 should be in the `Samples` folder. If there are multiple samples, these should have
-folders named in a way that makes it self explanatory for what they show within the `Samples`folder.
+folders named in a way that makes it self explanatory for what they show within the `Samples`
+folder.
 
 ## Source
 

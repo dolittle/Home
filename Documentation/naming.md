@@ -3,7 +3,7 @@ title: Naming
 description: Learn about how Doolittle's naming conventions
 keywords: General
 author: einari
-weight: 5
+weight: 8
 ---
 
 One of the most important aspects of maintainable code is readability.

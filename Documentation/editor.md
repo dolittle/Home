@@ -3,7 +3,7 @@ title: Editor config
 description: Learn about how your editor should be configured
 keywords: Contributing
 author: einari
-weight: 5
+weight: 13
 ---
 
 In the root of all projects there **SHOULD** be a `.editorconfig` file that governs how your editor should be configured.
