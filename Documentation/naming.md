@@ -6,6 +6,15 @@ author: einari
 weight: 3
 ---
 
+One of the most important aspects of maintainable code is readability.
+Being able to identify what something does just by reading the name.
+This applies to files, type names, functions / methods - all the way through.
+
+## Abreviations
+
+You should not use abreviations, unless they are well known and understood abreviations,
+such as `XML` or `JSON` or similar. 
+
 ## Upper CamelCase vs lower camelCase
 
 All C# code consistently uses upper CamelCase - also called Pascal Case.
