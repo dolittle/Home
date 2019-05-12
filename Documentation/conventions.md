@@ -16,8 +16,8 @@ helps with consistency in your codebase.
 
 Its not uncommon to have a Wiki with things to remember for different
 types of code; recipes for what you need to remember to implement for
-that particular type of building block. These are great candidates
-for conventions and also applying [cross cutting concerns]({{< relref core_principles >}}).
+that particular type of building block. These are great candidates for
+automation and can also be applied [cross cuttingly]({{< relref development_principles >}}).
 
 ## Convention over Configuration
 
