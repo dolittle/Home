@@ -1,6 +1,6 @@
 ---
-title: Conventions
-description: Learn about how Dolittle builds on conventions
+title: Naming
+description: Learn about how Dolittles naming conventions
 keywords: General
 author: einari
 weight: 3
