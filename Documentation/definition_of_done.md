@@ -3,7 +3,7 @@ title: Definition of done
 description: Learn about what we at Dolittle defines as our definition of done
 keywords: General
 author: einari
-weight: 4
+weight: 6
 ---
 
 We have a clear definition of what we consider to be done. These are the exit-criteria to determine if

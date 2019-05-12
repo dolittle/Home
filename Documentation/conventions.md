@@ -47,3 +47,13 @@ An example of this for frontend development is how [Aurelia](https://aurelia.io)
 automatically hooks up views and view models based on the name being the same.
 In Dolittle we do a lot around discovering, in fact its one of the core things
 we do consistently.
+
+The simplest example of a convention in play in Dolittle is during initialization,
+Dolittle will configure whatever [IOC container](https://en.wikipedia.org/wiki/Inversion_of_control)
+you have hooked with conventions. One default convention plays a part here saying
+that an interface named ``IFoo``will be bound to ``Foo``
+as long as they both sit in the same namespace. You'll see this throughout Dolittle
+internally as well, for instance ``ICommandCoordinator`` is bound to
+``CommandCoordinator``.
+
+The conventions at play are described throughout the documentation when it is relevant.

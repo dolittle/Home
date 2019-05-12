@@ -3,7 +3,7 @@ title: Pull requests
 description: Learn about what we're looking for with regards to pull requests
 keywords: General
 author: einari
-weight: 4
+weight: 7
 ---
 
 All of the Dolittle repositories are [pull request](https://help.github.com/en/articles/about-pull-requests)

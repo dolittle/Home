@@ -3,7 +3,7 @@ title: Versioning
 description: Learn about how Dolittle is versioned
 keywords: General
 author: einari, jakhog
-weight: 6
+weight: 8
 ---
 
 ## Versioning
