@@ -8,7 +8,7 @@ weight: 4
 
 At Dolittle we believe that good software stems from a set of core values.
 These values guides us towards our [core principles]({{< relref core_principles >}})
-and also manifested in our [development principles({{< relref development_principles >}})
+and also manifested in our [development principles]({{< relref development_principles >}})
 that translates it into guidelines we use for our development.
 This page describes these core values to help put ourselves into the pit of success.
 
