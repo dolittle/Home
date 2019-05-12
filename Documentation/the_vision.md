@@ -46,9 +46,7 @@ initial thoughts behind the project was to encapsulate commonly used building bl
 and [Einar](https://github.com/einari) took the project in a completely different direction after real world experience with
 traditional n-tier architecture and the discovery of commands. In 2012 it was moved to [GitHub](https://github.com/dolittle/DotNET.Core).
 
-{{% notice information %}}
-The original Bifrost repository can be found [here](https://github.com/dolittle/bifrost).
-{{% /notice %}}
+> The original Bifrost repository can be found [here](https://github.com/dolittle/bifrost).
 
 From the beginning the project evolved through the needs we saw when consulting for different companies. Amongst these were [Komplett](https://www.komplett.no).
 It has always had a high focus on delivering the building blocks to be able to deliver the true business value. This has been
