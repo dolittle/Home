@@ -3,7 +3,7 @@ title: C# Specifications
 description: Learn about how to write C# specifications
 keywords: Contributing
 author: einari
-weight: 11
+weight: 18
 ---
 
 All the C# code has been specified by using [Machine Specifications](http://github.com/machine/machine.specifications) with an adapted style.

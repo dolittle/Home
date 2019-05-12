@@ -3,7 +3,7 @@ title: Null - the billion dollar mistake
 description: Learn about how to work with runtime exceptions in code
 keywords: Contributing
 author: einari
-weight: 7
+weight: 15
 ---
 
 **Null** in code can be referred to the [billion dollar mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare).

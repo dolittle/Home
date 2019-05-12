@@ -3,7 +3,7 @@ title: Runtime exceptions
 description: Learn about how to work with runtime exceptions in code
 keywords: Contributing
 author: einari
-weight: 7
+weight: 16
 ---
 
 Exceptions should not be considered a way to do program flow. Exceptions should be treated as an exceptional state of the system

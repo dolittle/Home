@@ -3,7 +3,7 @@ title: C# coding styles
 description: Learn about how to write C# in Dolittle
 keywords: Contributing
 author: einari
-weight: 10
+weight: 17
 ---
 
 This is the to be considered the coding standard for Dolittle and is subject to automated
