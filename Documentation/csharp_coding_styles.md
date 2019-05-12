@@ -7,7 +7,7 @@ weight: 10
 ---
 
 This is the to be considered the coding standard for Dolittle and is subject to automated
-verification during automated builds and also part of codereviews such as those done for
+verification during automated builds and also part of code-reviews such as those done for
 pull requests.
 
 ## Patterns & Practices
