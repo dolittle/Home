@@ -16,5 +16,5 @@ This is our definition:
 * Adhering to our [principles]({{< relref core_principles >}})
 * Has automated specs for each unit
 * Has API documentation (XML, JsDoc, etc..)
-* Has general [documentation]({{< relref contributing/documentation >}})
+* Has general [documentation](/contributing/documentation)
 * Ready to be deployed (NuGet, NPM, Maven, Docker, production software)

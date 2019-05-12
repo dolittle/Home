@@ -14,8 +14,8 @@ our documentation here to see what we're expecting from you as a contributor.
 
 This project has adopted the code of conduct defined by the
 [Contributor Covenant](http://contributor-covenant.org/) to clarify expected
-behavior in our community. Read our [Code of Conduct]({{< relref code_of_conduct >}).
+behavior in our community. Read our [Code of Conduct]({{< relref code_of_conduct >}}).
 
 Contributions can also be done through documentation, all of our repositories
 have a `Documentation` folder and more details on writing documentation can be
-found [here]({{< relref contributing/documentation >}}).
+found [here](/contributing/documentation).
