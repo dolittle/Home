@@ -3,7 +3,7 @@ title: Stages
 description: Learn about stages in development
 keywords: Development, Principles
 author: einari
-weight: 12
+weight: 11
 ---
 
 Every feature added to parts of the Dolittle platform has different development stages.
