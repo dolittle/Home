@@ -3,7 +3,7 @@ title: Development principles
 description: Learn about the development principles of Dolittle
 keywords: General
 author: einari
-weight: 4
+weight: 5
 ---
 
 We at Dolittle believe that properly crafted code will make

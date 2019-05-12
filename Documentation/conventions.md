@@ -3,7 +3,7 @@ title: Conventions
 description: Learn about how Dolittle sees conventions
 keywords: General
 author: einari
-weight: 4
+weight: 6
 ---
 
 Part of a matured and maintainable solution is its conventions.

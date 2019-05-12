@@ -3,7 +3,7 @@ title: How to Contribute
 description: Learn about how to contribute
 keywords: Contributing
 author: einari
-weight: 1
+weight: 2
 ---
 
 You can contribute through the issues on any of the repositories in all the

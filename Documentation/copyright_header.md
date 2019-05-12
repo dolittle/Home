@@ -3,7 +3,7 @@ title: Copyright header
 description: Learn about the requirements of copyright headers in code files
 keywords: Contributing
 author: einari
-weight: 2
+weight: 8
 ---
 
 ## Code files

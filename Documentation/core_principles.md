@@ -3,7 +3,7 @@ title: Core principles
 description: Learn about the core principles of Dolittle
 keywords: General
 author: einari
-weight: 3
+weight: 4
 ---
 
 ## Security

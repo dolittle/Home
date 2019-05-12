@@ -3,7 +3,7 @@ title: Domain Driven Design
 description: Learn about Domain Driven Design and how it fits with Dolittle
 keywords: Overview
 author: einari
-weight: 4
+weight: 7
 ---
 
 Dolittle got from the beginning set to embrace [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) and

@@ -3,7 +3,7 @@ title: The Vision
 description: Learn about the Dolittle vision
 keywords: Contributing
 author: einari
-weight: 2
+weight: 1
 ---
 
 ![Dolittle Vision](../images/vision.png)
