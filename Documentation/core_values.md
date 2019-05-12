@@ -8,14 +8,14 @@ weight: 4
 
 At Dolittle we believe that good software stems from a set of core values.
 These values guides us towards our [core principles]({{< relref core_principles >}})
-and also manifested in our [development principles(./development_principles.md) 
+and also manifested in our [development principles({{< relref development_principles >}})
 that translates it into guidelines we use for our development.
 This page describes these core values to help put ourselves into the pit of success.
 
 ## Privacy
 
 We value privacy at all levels. Core to everything we do is rooted in this.
-This means we will always stribe towards making the right technology choice that
+This means we will always strive towards making the right technology choice that
 lets the owner of data have full control over where it is stored and the ownership
 is always very clear. These things should always be at the back every developers
 mind when making choices. It is easy to forget that even a little log statement
@@ -23,7 +23,7 @@ could violate this.
 
 ## Empowering developers
 
-Dolittle's mission is to **empower developers to create great, sustainable,
+The Dolittle mission is to **empower developers to create great, sustainable,
 maintainable software so that they can make their users feel like heroes**.
 This is part of our DNA - representing how we think and how we approach every
 aspect of our product development. Our products range from libraries to frameworks
@@ -60,9 +60,11 @@ We know the least at the beginning of a project and the only way we can know
 if anything works is to put it into the hands of others. Only then can we
 really see what worked and what didn't. Therefor it is essential that we only
 do just enough. In the words of Sarah Lewis; "We thrive not when we've done
-it all, but when we still have more to do" 
+it all, but when we still have more to do"
 (See her TED talk [here](https://www.ted.com/talks/sarah_lewis_embrace_the_near_win).
 Others has said similar things with the same sentiments - like LinkedIns Reid Hoffman said;
 "If you're not embarrassed by your first product release, you've released it too late.".
- 
-In order to be able to do so and guarantee a consistent level og quality, you have to have some core values and guiding principles to help you along the way. We have come up with a set of principles to make it easier to do so, read more [here](./stages.md).
+
+In order to be able to do so and guarantee a consistent level og quality, you have
+to have some core values and guiding principles to help you along the way. We have
+come up with a set of principles to make it easier to do so, read more [here]({{< relref stages >}}).
