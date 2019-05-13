@@ -52,19 +52,3 @@ software.
 
 With this in hand, we work hard to understand the persona; who are we building for
 and what is the effect of building something.
-
-## Just enough software
-
-A very core value we have at Dolittle is to not deliver more than just enough.
-We know the least at the beginning of a project and the only way we can know
-if anything works is to put it into the hands of others. Only then can we
-really see what worked and what didn't. Therefor it is essential that we only
-do just enough. In the words of Sarah Lewis; "We thrive not when we've done
-it all, but when we still have more to do"
-(See her TED talk [here](https://www.ted.com/talks/sarah_lewis_embrace_the_near_win).
-Others has said similar things with the same sentiments - like LinkedIns Reid Hoffman said;
-"If you're not embarrassed by your first product release, you've released it too late.".
-
-In order to be able to do so and guarantee a consistent level og quality, you have
-to have some core values and guiding principles to help you along the way. We have
-come up with a set of principles to make it easier to do so, read more [here]({{< relref stages >}}).

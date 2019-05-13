@@ -1,10 +1,16 @@
 ---
-title: Stages
-description: Learn about stages in development
+title: Just enough software
+description: Learn about how we think about delivering just enough software
 keywords: Development, Principles
 author: einari
 weight: 11
 ---
+
+As described in our [principles]({{< relref core_principles >}}), we focus on delivering
+just enough software. That means we think very iteratively at a macro level and deliver
+just enough to make something work. We do not compromise on quality and our principles
+of working, but scope things down to be exactly what we need to get the feature ready
+to be used.
 
 Every feature added to parts of the Dolittle platform has different development stages.
 For each of these stages there is a set of **REQUIRED** capabilities associated with it.
@@ -39,8 +45,13 @@ lines, but close to a 100% coverage of critical logic and the interaction betwee
 
 ### Core Principles
 
-At the heart of everything we do sits core principles that are considered **REQUIRED**.
-Read more [here]({{< relref contributing >}}) and for more context, read [here]({{< relref overview >}}).
+At the heart of everything we do sits our core [values]({{< relref core_values >}}),
+[core principles]({{< relref core_principles >}}) and [development principles]({{< relref development_principles >}})
+that are to be considered **required** and prerequisites for this to work.
+That means we build with the values and principles at hand.
+
+For more details on contribution, read more [here]({{< relref contributing >}}).
+You should also read more about [the vision]({{< relref the_vision >}}).
 
 ### Logging
 
