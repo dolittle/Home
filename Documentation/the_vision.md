@@ -21,7 +21,7 @@ and open dialog often makes the concrete plans less fixed.
 ## Background
 
 Dolittle targets the line of business type of application development. In this space there are very often requirements that
-are somewhat different than making other types of applications. Unlike creating a web page with content, line of business
+are somewhat different than making other types of applications. Unlike creating a web site with content, line of business
 applications has more advanced business logic and rules associated with it. In addition, most line of business applications
 tend to live for a long time once they are being used by users. Big rewrites are often not an option, as it involves a lot of
 work to capture existing features and domain logic in a new implementation. This means that one needs to think more
