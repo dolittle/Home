@@ -37,7 +37,7 @@ same location.
 is more than just at a file level within a feature, it
 is a mindset of keeping everything that belongs together close.
 Thats why we apply this for instance at a [repository](./repositories.md)
-level as well. 
+level as well.
 
 High cohesion is core to the concept of a [bounded context](https://www.martinfowler.com/bliki/BoundedContext.html).
 
@@ -212,3 +212,35 @@ in Dolittle that enables one to declaratively set up authorization rules across 
 This type of thinking can enable a lot of productivity and makes the code base less errorprone to things that needs to be remembered,
 it can be put in place one time and one can rely on it. Patterns like [chain-of-responsibility](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
 can help accomplishing this without going all in on AOP.
+
+## Null
+
+**Null** in code can be referred to the [billion dollar mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare).
+You **MUST** at all times try to avoid using **null**. If you have something that is optional, don't use **null** as a way to check
+for wether or not its provided. First of all, be explicit about what your dependencies are. A method should have overloads
+without the parameters that are optional. For implementations that are optional, provide a *NullImplementation* as the
+default instead. This makes program flow better and no need for dealing with exceptions
+such as the [NullReferenceException](https://msdn.microsoft.com/en-us/library/system.nullreferenceexception(v=vs.110).aspx)
+
+## Runtime Exceptions
+
+Exceptions should not be considered a way to do program flow. Exceptions should be treated as an exceptional state of the system
+often caused by faulty infrastructure. At times there are exceptions that are valid due to developers not using an API right.
+As long as it there is no way to recover an exception is fine. You should not throw an exception and let a caller of your API
+deal with the recovery of an exception. Exceptions **MUST** be considered unrecoverable.
+
+Examples of naming of exceptions can be found in [C# Coding Styles]({{< relref csharp_coding_styles >}}).
+
+## Immutability
+
+Mutability in code is a challenge. For instance when dealing with threading, if an object used between two different threads
+is mutable, you basically have zero chance of guaranteeing its state. By making it immutable and making it explicit that you
+create a new version of the object when mutating - you will avoid threading issues all together. This is very core to typical
+functional programming languages, but is a good mindset regardless of language.
+
+Mutability however goes even further, methods should never return a mutable type - it should protect its internals and take
+ownership of anything that can be mutated. That way you make your code very clear on responsibility. An example of this
+in C# would be returning `List<>`/`IList<>`from a method. Instead of returning this, you should be return en `IEnumerable<>`.
+A `List<>` would be implementing `IEnumerable<>`, so you don't need to convert it to an immutable. This way the contract
+is saying that you can't control its mutation and the responsibility becomes very clear. This makes responsibilities and concerns
+very clear.
