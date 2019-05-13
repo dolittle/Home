@@ -16,7 +16,7 @@ the team behind it will do its best to maintain the focus and not let it diverge
 
 The vision of what needs to be implemented shifts over time as one learns and gains experiences from usage of Dolittle. Plus new
 techniques and technologies emerges and Dolittle will adapt to these when it makes sense as well. These things, combined with a good
-and open dialog with often makes the concrete plans less fixed.
+and open dialog often makes the concrete plans less fixed.
 
 ## Background
 
