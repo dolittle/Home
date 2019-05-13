@@ -25,13 +25,17 @@ easier to navigate and change context between tasks.
 
 ## High cohesion
 
-Rather than grouping artifacts by its technical nature; keep 
+Rather than grouping artifacts by its technical nature; keep
 the things that are relevant to each other close. This makes it
 easier to navigate and provides a more consistent structure than
 having to divide by technical nature. For anyone coming into a
 project and developing on a specific feature will have an easier
 time understanding and mastering that feature when its all in the
-same location.
+same location. Examples of division by technical nature would be
+keep all your interfaces in an interface folder/namespace, all
+your frontend components in a component folder. While what you're
+trying to focus on is the feature and everything related to the
+feature.
 
 [Cohesion](https://en.m.wikipedia.org/wiki/Cohesion_(computer_science))
 is more than just at a file level within a feature, it
