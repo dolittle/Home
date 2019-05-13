@@ -15,6 +15,23 @@ This applies to files, type names, functions / methods - all the way through.
 You should not use abbreviations, unless they are well known and understood abbreviations,
 such as `XML` or `JSON` or similar.
 
+## Plural for modules / namespaces / folders
+
+Typically when working on features, the feature represents an artifact in the system.
+This artifact is often represented as a noun in the system and the feature concerning
+the noun should be pluralized.
+
+An example would be for instance `Employee` and the feature with everything related to
+this artifact would be `Employees`. Examples from our own code-base could be the
+[Applications](https://github.com/dolittle-fundamentals/DotNET.Fundamentals/tree/master/Source/Applications)
+namespace, which holds [Application](https://github.com/dolittle-fundamentals/DotNET.Fundamentals/blob/master/Source/Applications/Application.cs).
+Similarily; [ResourceTypes](https://github.com/dolittle-fundamentals/DotNET.Fundamentals/tree/master/Source/ResourceTypes)
+with [ResourceType](https://github.com/dolittle-fundamentals/DotNET.Fundamentals/blob/master/Source/ResourceTypes/ResourceType.cs)
+within it.
+
+Database schemas, folders in systems or in general collections of artifacts should
+similarly be named like this consistently.
+
 ## Prefix / postfix
 
 Having prefixes or postfixes to type names is often considered a code-smell.
