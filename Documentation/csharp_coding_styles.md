@@ -10,10 +10,12 @@ This is the to be considered the coding standard for Dolittle and is subject to 
 verification during automated builds and also part of code-reviews such as those done for
 pull requests.
 
-## Patterns & Practices
+## Values, principles and patterns & practices
 
-It is assumed that all code written is adhering to the patterns & practices described in the
-[overview]({{< relref overview >}}) article.
+It is assumed that all code written is adhering to our [core values]({{< relref core_values >}}),
+[core principles]({{< relref core_principles >}}) and [development principles]({{< relref development_principles >}}).
+On top of this we apply patterns that also reflect a lot of the mindset of things we do.
+Read more [here]({{< relref patterns >}}).
 
 ## Compactness
 
