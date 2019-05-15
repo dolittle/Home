@@ -30,7 +30,7 @@ Things that are implicit, **SHALL** be left implicit and not turned into explici
 Types are implicitly provided by the compiler and considered noise during declaration.
 If one feel the need for explicitly declaring variables with their type, it is often a
 symptom of something else being wrong - such as large methods that you can't get a feel
-for straight away. This is most likely breaking the Single Responsibility Pattern.
+for straight away. This is most likely breaking the [Single Responsibility Principle]({{< relref development_principles >}}).
 You **MUST** use `var` and let the compiler infer the type implicitly.
 
 ### Private members

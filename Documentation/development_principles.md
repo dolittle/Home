@@ -140,7 +140,9 @@ Below is a quick summary and some relations into Dolittle.
 
 ### Single Responsibility Principle
 
-Every class should have a single responsibility.
+Every class should have a single responsibility, every method on this class should do only one thing.
+If it needs to do more things, it is most likely a coordinator and should delegate the actual responsibility to a
+dependency for the actual work. This is true for types and methods alike.
 
 ### Open / Closed Principle
 
