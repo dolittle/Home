@@ -43,7 +43,7 @@ Examples of pre-/postfixes you should avoid:
 * ViewModel
 * Exception
 
-Make the naming of unambiguous instead.
+Make the naming unambiguous instead.
 
 ## Upper CamelCase vs lower camelCase
 
