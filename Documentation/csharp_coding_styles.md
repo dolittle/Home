@@ -194,9 +194,9 @@ like IEnumerable instead.
 
 ## Mutability
 
-One of the biggest cause of side-effects in a system is the ability to mute state and possibly
+One of the biggest cause of side-effects in a system is the ability to mutate state and possibly
 state one does not necessarily own. The example is something creates an instance of an object
 and exposes public getters and setters for its properties and inviting anyone to change
 this state. This makes it hard to track which part of the system actually changed the state.
-Be very concious about ownership of instances. Avoid mutability. Most of the time it is
+Be very conscious about ownership of instances. Avoid mutability. Most of the time it is
 not needed. Instead, create new objects with the mutation in place.
