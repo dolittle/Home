@@ -189,7 +189,7 @@ down systems.
 ## Exposing IList / ICollection
 
 Public APIs *SHALL NOT* have mutable types as return types, such as IList, ICollection.
-The responsibility for maintaining state should lie with the owner of it. By exposing the
+The responsibility for maintaining state should be with the owner of it. By exposing the
 ability for changing state outside the owner, you lose control over who can change state
 and side-effects occur that aren't clear. Instead you should always expose immutable types
 like IEnumerable instead.
