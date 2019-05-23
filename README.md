@@ -34,6 +34,8 @@ Dolittle consists of quite a few projects all geared towards different aspects. 
 | [Fundamentals](https://github.com/dolittle-fundamentals) | Fundamental, reusable building blocks. Contains projects like [.NET Fundamentals](http://github.com/dolittle-fundamentals/dotnet.fundamentals) and [JavaScript Fundamentals](http://github.com/dolittle-fundamentals/javascript.fundamentals) |
 | [Tools](https://github.com/dolittle-tools) | All tools for the platform |
 | [Platform](https://github.com/dolittle-platform) | Most of Dolittle is open source, but there are aspects associated with the hosted experience that is closed source; this is where we keep these - privately. All issues are however represented by a [public repository](https://github.com/dolittle-platform/home) |
+| [Edge](https://github.com/dolittle-edge) | All of our edge support |
+| [TimeSeries](https://github.com/dolittle-timeseries) | All our support for timeseries, collect, historians, prioritization etc. |
 | [Extensions](https://github.com/dolittle-extensions) | All extensions provided to the frameworks and platform is found here. For instance things like our [Autofac](https://github.com/dolittle-extensions/DotNET.DependencyInversion.Autofac) support, or [MongoDB Event Store](https://github.com/dolittle-extensions/Runtime.Events.MongoDB) |
 | [Samples](https://github.com/dolittle-samples) | All samples for using Dolittle |
 | [Entropy](https://github.com/dolittle-entropy) | When we want to try out new things, we keep them here first. A way of brainstorming around new concepts and ideas. |
