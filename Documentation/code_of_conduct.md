@@ -3,7 +3,7 @@ title: Code of conduct
 description: Learn about what is expected from you on conduct
 keywords: General
 author: einari
-weight: 6
+weight: 2
 ---
 # Contributor Covenant Code of Conduct
 
