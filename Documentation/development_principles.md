@@ -152,7 +152,7 @@ without having to change the internals of Dolittle.
 
 ### Liskov Substition Principle
 
-Objects in a program should be replacead with instances of their subtypes without altering the correctness of that program.
+Objects in a program should be replaced with instances of their subtypes without altering the correctness of that program.
 An example of how Dolittle follows this is for instance the [event store]({{< relref event_store >}}) works.
 It has multiple implementations and the contract promises what it can do, implementations need to adhere to the contract.
 
