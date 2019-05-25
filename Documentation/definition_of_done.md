@@ -12,11 +12,11 @@ The definition of done is used actively when [pull requests]({{< relref pull_req
 
 This is our definition:
 
-* Functional software
-* Adhering to our [principles]({{< relref core_principles >}})
-* Following our expected [repository structure]({{< relref repositories >}})
-* Has automated specs for each unit
-* Has API documentation (XML, JsDoc, etc..)
-* If exposing formats like JSON files that should be made available, create or remember to update the schema for it for it to be published. E.g. [Schema Store](http://schemastore.org/json/)
-* Has general [documentation](/contributing/documentation)
-* Ready to be deployed (NuGet, NPM, Maven, Docker, production software)
+- Functional software
+- Adhering to our [principles]({{< relref core_principles >}})
+- Following our expected [repository structure]({{< relref repositories >}})
+- Has automated specs for each unit
+- Has API documentation (XML, JsDoc, etc..)
+- If exposing formats like JSON files that should be made available, create or remember to update the schema for it for it to be published. E.g. [Schema Store](http://schemastore.org/json/)
+- Has general [documentation](/contributing/documentation)
+- Ready to be deployed (NuGet, NPM, Maven, Docker, production software)
