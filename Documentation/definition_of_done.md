@@ -14,6 +14,9 @@ This is our definition:
 
 ## Functional software
 
+Core to everything coming through a pull request; it must be functional software. This means it should
+have been tested by the developer or confirmed tested by a tester, or automated tests / specifications.
+
 ## Adhering to our values and principles
 
 It is expected that the code is adhering to our [core principles]({{< relref core_principles >}}) and our
