@@ -6,7 +6,7 @@ author: einari
 weight: 11
 ---
 
-All of Dolittle repositories aim for consistency in naming, structure, folder names.
+All of Dolittle repositories should be consistent in naming, structure and folder names.
 This gives us a higher level of consistency and it makes it easier for us to create
 cross cutting tools that can be applied to all of our repositories.
 
