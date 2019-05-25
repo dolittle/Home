@@ -36,6 +36,8 @@ but this is what is being adhered to.
 │
 └─── Documentation
 └─── Samples
+└─── Schemas
+└─── BoilerPlates
 └─── Source
 ```
 
@@ -55,6 +57,17 @@ Samples that show concrete examples directly linked to what the repository repre
 should be in the `Samples` folder. If there are multiple samples, these should have
 folders named in a way that makes it self explanatory for what they show within the `Samples`
 folder.
+
+## Schemas
+
+If the project exposes JSON formats that one wants to have published to the [Schema Store](http://schemastore.org/json/),
+they should be located in the `Schemas` folder.
+
+## BoilerPlates
+
+Some projects has boiler plates that they use to make it easier for developers to get started.
+This is typically used by the [Dolittle Tooling](https://github.com/dolittle-tools).
+All boiler plates should be in the `BoilerPlates` folder at the root of the project.
 
 ## Source
 
