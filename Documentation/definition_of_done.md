@@ -12,11 +12,44 @@ The definition of done is used actively when [pull requests]({{< relref pull_req
 
 This is our definition:
 
-- Functional software
-- Adhering to our [principles]({{< relref core_principles >}})
-- Following our expected [repository structure]({{< relref repositories >}})
-- Has automated specs for each unit
-- Has API documentation (XML, JsDoc, etc..)
-- If exposing formats like JSON files that should be made available, create or remember to update the schema for it for it to be published. E.g. [Schema Store](http://schemastore.org/json/)
-- Has general [documentation](/contributing/documentation)
-- Ready to be deployed (NuGet, NPM, Maven, Docker, production software)
+## Functional software
+
+## Adhering to our values and principles
+
+It is expected that the code is adhering to our [core principles]({{< relref core_principles >}}) and our
+[development principles]({{< relref development_principles >}}), which are well founded in our
+[core values]({{< relref core_values >}}).
+
+## Following our expected structure
+
+All code should be adhering to our [repository structure]({{< relref repositories >}}) and in general our
+cohesion principles as found in [development principles]({{< relref development_principles >}}).
+
+## Has automated specifications (tests)
+
+We do not look at code coverage as a metric, but we look at the logical coverage. We expect our code to
+have automated specifications (tests) around it on a unit level. We look for behavioral specifications.
+
+## Has API documentation (XML, JsDoc, etc..)
+
+All public APIs should have documentation around them, which is language specific and can be automatically
+extracted and generated API documentation for our [documentation site](https://dolittle.io)
+
+## Has general documentation
+
+Documentation is important to have and to maintain on changes. It is expected that any minor version bump
+contains the documentation for whatever is new and a major to contain the documentation for what has changed.
+Read more on how to contribute to documentation [here](/contributing/documentation).
+
+## Schemas for public formats
+
+If exposing formats like JSON files that should be made available, create or remember to update the schema
+for it for it to be published. E.g. [Schema Store](http://schemastore.org/json/)
+
+## Ready to be deployed
+
+Code should be ready to be deployed. Pull requests should never be made unless the code is ready to be deployed.
+The definition of what deployment is, is defined by each repository. For some it means deploying a package
+that can be consumed publicly. Which means it needs to be production ready. For other repositories, it could
+mean it needs to be ready to deployed to a staging environment - typically for applications being used by
+users.
