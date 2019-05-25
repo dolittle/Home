@@ -7,8 +7,8 @@ weight: 11
 ---
 
 All of Dolittle repositories aim for consistency in naming, structure, folder names.
-The reason for this is two fold; developers will know where to find things, then we
-have tooling that can consistently lean on the structure and just work.
+This gives us a higher level of consistency and it makes it easier for us to create
+cross cutting tools that can be applied to all of our repositories.
 
 As part of a [pull request review](./pull_requests.md) we look for this consistency and
 make sure that everything is adhering to this structure.
