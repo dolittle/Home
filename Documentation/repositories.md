@@ -37,7 +37,7 @@ but this is what is being adhered to.
 └─── Documentation
 └─── Samples
 └─── Schemas
-└─── BoilerPlates
+└─── Boilerplates
 └─── Source
 ```
 
