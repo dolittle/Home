@@ -42,6 +42,8 @@ Examples of pre-/postfixes you should avoid:
 * Controller
 * ViewModel
 * Exception
+* Factory
+* Manager
 
 Make the naming unambiguous instead.
 
