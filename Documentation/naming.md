@@ -45,7 +45,10 @@ Examples of pre-/postfixes you should avoid:
 * Factory
 * Manager
 
-Make the naming unambiguous instead.
+Another common naming is to include the word `Base` as a prefix or postfix. This
+should not be there.
+
+Instead of adding post/pre-fixes; make the naming unambiguous instead.
 
 ## Upper CamelCase vs lower camelCase
 
