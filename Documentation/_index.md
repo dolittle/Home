@@ -1,6 +1,6 @@
 ---
 title: "Guidelines"
-weight: 10
+weight: 1
 repository: https://github.com/dolittle/Home
 ---
 
