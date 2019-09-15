@@ -12,7 +12,7 @@ Read about how we do our issues [here](./issues.md).
 
 ## Contributing
 
-Read our [contribution guide](http://www.dolittle.io/Articles/contributing.html) and get familiar with our [code of conduct](CODE_OF_CONDUCT.md).
+Read our [contribution guide](https://dolittle.io/contributing/guidelines/how_to_contribute/) and get familiar with our [code of conduct](CODE_OF_CONDUCT.md).
 
 ## Projects
 
