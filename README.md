@@ -4,11 +4,6 @@
 
 ## Issues
 
-All the different projects has their own issues and we keep track of everything in our [Waffle Board](https://waffle.io/dolittle/home)
-
-[![Stories in Ready](https://badge.waffle.io/dolittle/home.png?label=ready&title=Ready)](http://waffle.io/dolittle/home)
-
-Read about how we do our issues [here](./issues.md).
 
 ## Contributing
 
