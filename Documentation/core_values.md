@@ -52,3 +52,12 @@ software.
 
 With this in hand, we work hard to understand the persona; who are we building for
 and what is the effect of building something.
+
+## Embracing change
+
+The world is constantly changing, so should software. Adapting to new knowledge,
+new opportunities and new challenges is how the world has always moved on. It is
+therefor a vital piece of Dolittle to be able to embrace this change. This is a
+mindset and something we strongly believe in, and is also something we stribe
+towards in our codebase; making it possible to adapt and change to new requirements
+without having to recreate everything.
