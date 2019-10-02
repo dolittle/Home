@@ -61,3 +61,11 @@ therefor a vital piece of Dolittle to be able to embrace this change. This is a
 mindset and something we strongly believe in, and is also something we stribe
 towards in our codebase; making it possible to adapt and change to new requirements
 without having to recreate everything.
+
+## Being pragmatic
+
+Pragmatism is important, keeping things real, relevant and practical is at the core
+of this. However, it should be treated as a trumph card for taking shortcuts and
+not adhering to our principles - "as that would be the pragmatic way". It is related
+to the approach, which tool and in general the how. We also keep our focus on
+the outcome and never deviate from what outcome we are trying to achieve.
