@@ -24,7 +24,7 @@ For XML based languages, this would look like:
 -->
 ```
 
-Other languages might have other ways to represents comments, for instance:
+Other languages might have other ways to represents comments, for instance bash/shell scripts or similar:
 
 ```shell
 # Copyright (c) Dolittle. All rights reserved.
