@@ -4,9 +4,12 @@ Replace this text with a short description. This can and should include links to
 
 ## Definition of Done
 
+More details on our definition of done can be found [here](https://dolittle.io/contributing/guidelines/definition_of_done/).
+
 - [ ] Adhers to our [core principles](https://dolittle.io/contributing/guidelines/core_principles/) and [development principles](https://dolittle.io/contributing/guidelines/development_principles/).
 - [ ] Follows our [expected structure](https://dolittle.io/contributing/guidelines/repositories/).
 - [ ] Has automated specifications / tests.
 - [ ] Has API documentation (XML, JsDoc or similar).
 - [ ] Has general documentation sitting in the /Documentation folder at the root of the repository. (See [more](https://dolittle.io/contributing/documentation/)).
+- [ ] Schemas for public formats.
 - [ ] Ready to be packaged and released.
