@@ -8,5 +8,5 @@ Replace this text with a short description. This can and should include links to
 - [ ] Follows our [expected structure](https://dolittle.io/contributing/guidelines/repositories/).
 - [ ] Has automated specifications / tests.
 - [ ] Has API documentation (XML, JsDoc or similar).
-- [ ] Has general documentation sitting in the /Documentation folder at the root of the repository. (See [more](https://dolittle.io/contributing/documentation/).
+- [ ] Has general documentation sitting in the /Documentation folder at the root of the repository. (See [more](https://dolittle.io/contributing/documentation/)).
 - [ ] Ready to be packaged and released.
