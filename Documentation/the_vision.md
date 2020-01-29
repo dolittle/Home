@@ -1,12 +1,16 @@
 ---
 title: The Vision
+url: /contributing/guidelines/
 description: Learn about the Dolittle vision
 keywords: Contributing
 author: einari
 weight: 1
+aliases:
+    - /contributing/guidelines/the-vision/
+    - /contributing/guidelines/the_vision/
 ---
 
-![Dolittle Vision](../images/vision.png)
+![Dolittle Vision](./images/vision.png)
 
 There sits a vision behind Dolittle. Its not necessarily a fixed vision. But the primary objectives are to build a platform that is easy
 to use, with high productivity and is easy to maintain. On top of this, the vision has always been and will continue to be to solve
