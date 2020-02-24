@@ -2,16 +2,14 @@
 
 [![Join the chat at https://gitter.im/dolittle/home](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dolittle/home?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-## Issues
-
 
 ## Contributing
 
-Read our [contribution guide](https://dolittle.io/contributing/guidelines/how_to_contribute/) and get familiar with our [code of conduct](CODE_OF_CONDUCT.md).
+Read our [contribution guide](https://dolittle.io/contributing/) and get familiar with our [code of conduct](https://dolittle.io/contributing/guidelines/code_of_conduct/).
 
 ## Projects
 
-This repository holds the issues across all projects organized in the [Projects](https://github.com/dolittle/Home/projects) tab above.It also contains the links to all the projects organized from here.
+This repository holds the issues across all projects organized in the [Projects](https://github.com/dolittle/Home/projects) tab above. It also contains the links to all the projects organized from here.
 
 ## Getting Started
 
