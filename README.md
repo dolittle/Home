@@ -2,18 +2,21 @@
 
 [![Join the chat at https://gitter.im/dolittle/home](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dolittle/home?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+Home is the landing point and spring board to the different aspects of the world of Dolittle.
+
+This repository contains a listing of all of our repositories and GitHub organisations.
 
 ## Contributing
 
-Read our [contribution guide](https://dolittle.io/contributing/) and get familiar with our [code of conduct](https://dolittle.io/contributing/guidelines/code_of_conduct/).
+Read our [contribution guide](https://dolittle.io/contributing/) and get familiar with our [code of conduct](https://dolittle.io/contributing/guidelines/code_of_conduct/) to start contributing.
 
-## Projects
+## Issues
 
-This repository holds the issues across all projects organized in the [Projects](https://github.com/dolittle/Home/projects) tab above. It also contains the links to all the projects organized from here.
+All of our issues are filed under this repository. This is to consolidate our issues to a single place where they can be monitored easily.
 
 ## Getting Started
 
-Go to our [documentation site](http://www.dolittle.io) and learn more about the project and how to get started.
+Go to our [documentation site](http://www.dolittle.io) and learn more about the Dolittle framework and how to get started.
 
 ## Organizations
 
@@ -21,7 +24,7 @@ Dolittle consists of quite a few projects all geared towards different aspects. 
 
 | Aspect | Description |
 | ------ | ----------- |
-| [Home / Main](https://github.com/dolittle) | Our landing point and spring board to the different aspects of the world of Dolittle |
+| [Home](https://github.com/dolittle) | Our landing point and spring board to the different aspects of the world of Dolittle |
 | [Runtime](https://github.com/dolittle-runtime) | The core of the Dolittle Runtime. This is where you'll find things like the [DotNet SDK](https://github.com/dolittle-runtime/dotnet.sdk), [Runtime](https://github.com/dolittle-runtime/runtime) |
 | [Interaction](https://github.com/dolittle-interaction) | All interaction layers are found here. An interaction layer is for instance a frontend, API or similar |
 | [Fundamentals](https://github.com/dolittle-fundamentals) | Fundamental, reusable building blocks. Contains projects like [.NET Fundamentals](http://github.com/dolittle-fundamentals/dotnet.fundamentals) and [JavaScript Fundamentals](http://github.com/dolittle-fundamentals/javascript.fundamentals) |
