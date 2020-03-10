@@ -15,52 +15,249 @@ This repository holds the issues across all projects organized in the [Projects]
 
 Go to our [documentation site](http://www.dolittle.io) and learn more about the project and how to get started.
 
+
 ## Organizations
+Dolittle consists of quite a few different organizations geared towards different aspects. Each organisation has multiple repositories.
 
-Dolittle consists of quite a few projects all geared towards different aspects. All these aspects has an organization representing them:
+| Organisation | Description | 
+| --- | --- | 
+| [dolittle](#dolittle) | No description | 
+| [dolittle-timeseries](#dolittle-timeseries) | No description | 
+| [dolittle-tools](#dolittle-tools) | No description | 
+| [dolittle-interaction](#dolittle-interaction) | User interaction frameworks | 
+| [dolittle-platform](#dolittle-platform) | No description | 
+| [dolittle-entropy](#dolittle-entropy) | No description | 
+| [dolittle-build-testing](#dolittle-build-testing) | No description | 
+| [dolittle-runtime](#dolittle-runtime) | Core Runtime and SDK for the Dolittle Application Platform | 
+| [dolittle-edge-packages](#dolittle-edge-packages) | No description | 
+| [dolittle-boilerplates](#dolittle-boilerplates) | No description | 
+| [dolittle-edge](#dolittle-edge) | No description | 
+| [dolittle-samples](#dolittle-samples) | No description | 
+| [dolittle-fundamentals](#dolittle-fundamentals) | No description | 
+| [dolittle-extensions](#dolittle-extensions) | No description | 
+| [dolittle-campaigns](#dolittle-campaigns) | No description | 
+| [dolittle-security](#dolittle-security) | No description | 
+| [dolittle-casestudies](#dolittle-casestudies) | No description | 
+| [dolittle-fabric](#dolittle-fabric) | No description | 
+| [dolittle-contribs](#dolittle-contribs) | No description | 
 
-| Aspect | Description |
-| ------ | ----------- |
-| [Home / Main](https://github.com/dolittle) | Our landing point and spring board to the different aspects of the world of Dolittle |
-| [Runtime](https://github.com/dolittle-runtime) | The core of the Dolittle Runtime. This is where you'll find things like the [DotNet SDK](https://github.com/dolittle-runtime/dotnet.sdk), [Runtime](https://github.com/dolittle-runtime/runtime) |
-| [Interaction](https://github.com/dolittle-interaction) | All interaction layers are found here. An interaction layer is for instance a frontend, API or similar |
-| [Fundamentals](https://github.com/dolittle-fundamentals) | Fundamental, reusable building blocks. Contains projects like [.NET Fundamentals](http://github.com/dolittle-fundamentals/dotnet.fundamentals) and [JavaScript Fundamentals](http://github.com/dolittle-fundamentals/javascript.fundamentals) |
-| [Tools](https://github.com/dolittle-tools) | All tools for the platform |
-| [Platform](https://github.com/dolittle-platform) | Most of Dolittle is open source, but there are aspects associated with the hosted experience that is closed source; this is where we keep these - privately. All issues are however represented by a [public repository](https://github.com/dolittle-platform/home) |
-| [Edge](https://github.com/dolittle-edge) | All of our edge support |
-| [TimeSeries](https://github.com/dolittle-timeseries) | All our support for timeseries, collect, historians, prioritization etc. |
-| [Extensions](https://github.com/dolittle-extensions) | All extensions provided to the frameworks and platform is found here. For instance things like our [Autofac](https://github.com/dolittle-extensions/DotNET.DependencyInversion.Autofac) support, or [MongoDB Event Store](https://github.com/dolittle-extensions/Runtime.Events.MongoDB) |
-| [Samples](https://github.com/dolittle-samples) | All samples for using Dolittle |
-| [Entropy](https://github.com/dolittle-entropy) | When we want to try out new things, we keep them here first. A way of brainstorming around new concepts and ideas. |
-| [Contribs](https://github.com/dolittle-contribs) | Contributions to the platform. This is often a stepping stone on becoming formalized into the core frameworks and platform. |
-| [Boilerplates](https://github.com/dolittle-boilerplates) | Boilerplates for tooling experience for getting started with different projects and artifacts |
+## Repositories
 
-## Project map
+### [dolittle](https://github.com/dolittle) 
+No description 
+| Repository | Description | 
+| --- | --- | 
+| [Bifrost](https://github.com/dolittle/Bifrost) | This is the stabile release of doLittle till its out of alpha->beta stages |
+| [dolittle.github.io](https://github.com/dolittle/dolittle.github.io) | No description |
+| [Home](https://github.com/dolittle/Home) | Dolittle is a platform designed to build Line of Business applications without sacrificing architectural quality, code quality or scalability. |
+| [www](https://github.com/dolittle/www) | No description |
+| [Documentation](https://github.com/dolittle/Documentation) | Main documentation project |
+| [Dolittle.com](https://github.com/dolittle/Dolittle.com) | No description |
+| [Dolittle.blog](https://github.com/dolittle/Dolittle.blog) | No description |
+| [hugo-theme-docdock](https://github.com/dolittle/hugo-theme-docdock) | Declination of @matcornic  Learn theme to Hugo |
+| [signup.dolittle.com](https://github.com/dolittle/signup.dolittle.com) | The signup page for dolittle.com |
+| [Learning](https://github.com/dolittle/Learning) | No description |
+| [DotNET_Template](https://github.com/dolittle/DotNET_Template) | No description |
+| [Development](https://github.com/dolittle/Development) | Common development scripts and tools used at Dolittle |
+| [csharp.dolittle.io](https://github.com/dolittle/csharp.dolittle.io) | Dolittle C# reference website |
 
-| Project | Description |
-| ------- | ----------- |
-| [DotNET.Build](https://github.com/dolittle/dotnet.build) | Common build, settings and tools for .NET core developers |
-| [DotNET.Fundamentals](https://github.com/dolittle-fundamentals/dotnet.fundamentals) | Fundamental generic building blocks for .NET |
-| [DotNET.SDK](https://github.com/dolittle-runtime/dotnet.sdk) | The .NET SDK for interacting with Dolittle |
-| [DotNET.DependencyInversion.Autofac](https://github.com/dolittle-extensions/DotNET.DependencyInversion.Autofac.sdk) | The .NET SDK for interacting with Dolittle |
-| [Runtime](https://github.com/dolittle-runtime/runtime) | Runtime for Dolittle - this is the core of the platform |
-| [MongoDB Event Store](https://github.com/dolittle-extensions/Runtime.Events.MongoDB) | Event Store implementation for MongoDB |
-| [In Memory Event Store](https://github.com/dolittle-extensions/Runtime.Events.InMemory) | Event Store implementation for InMemory |
-| [MongoDB Read Models](https://github.com/dolittle-extensions/ReadModels.MongoDB) | ReadModel support for for MongoDB |
-| [JavaScript Build](https://github.com/dolittle/JavaScript.Build) | Common build for JavaScript based repositories |
-| [JavaScript.Fundamentals](https://github.com/dolittle-fundamentals/JavaScript.Fundamentals) | Fundamental generic building blocks for JavaScript |
-| [AspNetCore](https://github.com/dolittle-interaction/AspNetCore) | The interaction for ASP.NET Core - typically API endpoints |
-| [Styles](https://github.com/dolittle-interaction/Dolittle.styles) | The [Dolittle styles framework](http://styles.dolittle.io) |
-| [JavaScript](https://github.com/dolittle-interaction/JavaScript) | The core reusable JavaScript building blocks for interaction |
-| [JavaScript.Client](https://github.com/dolittle-interaction/JavaScript.Client) | The client reusable JavaScript building blocks for interaction |
-| [Digital Twin Studio](https://github.com/dolittle-interaction/digital_twin_studio) | Our Digital Twin Studio - interaction |
-| [JavaScript.Build.Aurelia](https://github.com/dolittle-interaction/JavaScript.Build.Aurelia) | Our build pipeline for Aurelia based applications |
-| [cli](https://github.com/dolittle-tools/cli) | Command Line Interace for working with the Dolittle platform |
-| [vscode](https://github.com/dolittle-tools/vscode) | Visual Studio Code extension |
-| [Continuous Improvement](https://github.com/dolittle-platform/continuous_improvement) | Our continuous improvement system |
-| [Sentry](https://github.com/dolittle-platform/sentry) | Our federated identity, access and licensing gateway |
-| [Registry](https://github.com/dolittle/registry) | Our application registry |
-| [Studio](https://github.com/dolittle/studio) | Our studio - the Dolittle portal |
+### [dolittle-timeseries](https://github.com/dolittle-timeseries) 
+No description 
+| Repository | Description | 
+| --- | --- | 
+| [Studio](https://github.com/dolittle-timeseries/Studio) | No description |
+| [Home](https://github.com/dolittle-timeseries/Home) | No description |
+| [Runtime](https://github.com/dolittle-timeseries/Runtime) | No description |
+| [DotNET.SDK](https://github.com/dolittle-timeseries/DotNET.SDK) | No description |
+| [Contracts.Runtime](https://github.com/dolittle-timeseries/Contracts.Runtime) | No description |
+| [Fabric](https://github.com/dolittle-timeseries/Fabric) | No description |
+| [Contracts.Microservice](https://github.com/dolittle-timeseries/Contracts.Microservice) | No description |
+| [Contracts.Fabric](https://github.com/dolittle-timeseries/Contracts.Fabric) | No description |
+| [Python.SDK](https://github.com/dolittle-timeseries/Python.SDK) | No description |
+| [Upstreamer](https://github.com/dolittle-timeseries/Upstreamer) | No description |
+
+### [dolittle-tools](https://github.com/dolittle-tools) 
+No description 
+| Repository | Description | 
+| --- | --- | 
+| [DotNET.Build](https://github.com/dolittle-tools/DotNET.Build) | Common build for all .NET Based projects |
+| [vscode](https://github.com/dolittle-tools/vscode) | No description |
+| [cli](https://github.com/dolittle-tools/cli) | No description |
+| [common](https://github.com/dolittle-tools/common) | Holds common funtionality used by tools |
+| [home](https://github.com/dolittle-tools/home) | No description |
+| [AzureDevOps](https://github.com/dolittle-tools/AzureDevOps) | No description |
+| [tooling-plugin](https://github.com/dolittle-tools/tooling-plugin) | No description |
+| [DotNET.Protobuf](https://github.com/dolittle-tools/DotNET.Protobuf) | No description |
+| [JavaScript.Protobuf](https://github.com/dolittle-tools/JavaScript.Protobuf) | No description |
+| [Contracts.Build](https://github.com/dolittle-tools/Contracts.Build) | No description |
+| [TypeScript.Build](https://github.com/dolittle-tools/TypeScript.Build) | Holds common building blocks for building TypeScript applications and libraries |
+| [TypeScript.Webpack](https://github.com/dolittle-tools/TypeScript.Webpack) | No description |
+| [DotNET.Common](https://github.com/dolittle-tools/DotNET.Common) | Common build configuration for all .NET / NuGet based projects |
+| [TypeScript.Webpack.Aurelia](https://github.com/dolittle-tools/TypeScript.Webpack.Aurelia) | No description |
+| [AzureDevOps.Tasks](https://github.com/dolittle-tools/AzureDevOps.Tasks) | No description |
+| [staticweb.registry](https://github.com/dolittle-tools/staticweb.registry) | No description |
+
+### [dolittle-interaction](https://github.com/dolittle-interaction) 
+User interaction frameworks 
+| Repository | Description | 
+| --- | --- | 
+| [AspNetCore](https://github.com/dolittle-interaction/AspNetCore) | No description |
+| [Styles](https://github.com/dolittle-interaction/Styles) | No description |
+| [JavaScript.Client](https://github.com/dolittle-interaction/JavaScript.Client) | Client libraries |
+| [JavaScript.Components.Aurelia](https://github.com/dolittle-interaction/JavaScript.Components.Aurelia) | No description |
+| [WebAssembly](https://github.com/dolittle-interaction/WebAssembly) | No description |
+| [JavaScript.Client.Aurelia](https://github.com/dolittle-interaction/JavaScript.Client.Aurelia) | No description |
+| [AspNetCore.Debugging.Swagger](https://github.com/dolittle-interaction/AspNetCore.Debugging.Swagger) | No description |
+| [AspNetCore.Debugging](https://github.com/dolittle-interaction/AspNetCore.Debugging) | No description |
+
+### [dolittle-platform](https://github.com/dolittle-platform) 
+No description 
+| Repository | Description | 
+| --- | --- | 
+| [Studio](https://github.com/dolittle-platform/Studio) | No description |
+| [Registry](https://github.com/dolittle-platform/Registry) | No description |
+| [Home](https://github.com/dolittle-platform/Home) | No description |
+| [Sentry_legacy](https://github.com/dolittle-platform/Sentry_legacy) | The guardian of the gate |
+| [continuous_improvement_legacy](https://github.com/dolittle-platform/continuous_improvement_legacy) | No description |
+| [Build](https://github.com/dolittle-platform/Build) | No description |
+| [continuous_improvement](https://github.com/dolittle-platform/continuous_improvement) | No description |
+| [k8s_certificate_manager](https://github.com/dolittle-platform/k8s_certificate_manager) | Tools for automating signing of certificates that can be used for authenticating services within a Kubernetes cluster |
+| [timeseries](https://github.com/dolittle-platform/timeseries) | No description |
+| [eventstore](https://github.com/dolittle-platform/eventstore) | No description |
+| [Ingress.Uptime](https://github.com/dolittle-platform/Ingress.Uptime) | No description |
+| [Storage.MongoDB](https://github.com/dolittle-platform/Storage.MongoDB) | No description |
+
+### [dolittle-entropy](https://github.com/dolittle-entropy) 
+No description 
+| Repository | Description | 
+| --- | --- | 
+| [IPC](https://github.com/dolittle-entropy/IPC) | Research of IPC solutions for hosting Runtime and letting SDKs efficiently connect |
+| [REST](https://github.com/dolittle-entropy/REST) | Research project for automatically generating REST endpoints for doLittle artifacts |
+| [MapReduce](https://github.com/dolittle-entropy/MapReduce) | No description |
+| [SmokeTests](https://github.com/dolittle-entropy/SmokeTests) | No description |
+| [road_ahead](https://github.com/dolittle-entropy/road_ahead) | Roadmap system |
+| [NuGetFeedTreeServer](https://github.com/dolittle-entropy/NuGetFeedTreeServer) | No description |
+| [HTTP-Proxy](https://github.com/dolittle-entropy/HTTP-Proxy) | No description |
+| [MongoDB-Proxy](https://github.com/dolittle-entropy/MongoDB-Proxy) | No description |
+| [nanoservices](https://github.com/dolittle-entropy/nanoservices) | No description |
+| [asana-risk-plugin](https://github.com/dolittle-entropy/asana-risk-plugin) | No description |
+| [TopologyVisualizer](https://github.com/dolittle-entropy/TopologyVisualizer) | No description |
+| [GoModuleRepository](https://github.com/dolittle-entropy/GoModuleRepository) | No description |
+| [nexus-blobstore-azure-cloud](https://github.com/dolittle-entropy/nexus-blobstore-azure-cloud) | Nexus Repository Manager Blobstore backed by Azure Cloud Storage |
+| [Dependencies](https://github.com/dolittle-entropy/Dependencies) | Automation for finding dependencies between projects |
+
+### [dolittle-build-testing](https://github.com/dolittle-build-testing) 
+No description 
+| Repository | Description | 
+| --- | --- | 
+| [DotNET.Fundamentals](https://github.com/dolittle-build-testing/DotNET.Fundamentals) | Reusable, fundamental abstractions and building blocks |
+| [Runtime](https://github.com/dolittle-build-testing/Runtime) | This repository holds the runtime for Dolittle |
+| [DotNET.SDK](https://github.com/dolittle-build-testing/DotNET.SDK) | The .NET SDK for Dolittle |
+| [Runtime.Events.MongoDB](https://github.com/dolittle-build-testing/Runtime.Events.MongoDB) | No description |
+| [ReadModels.MongoDB](https://github.com/dolittle-build-testing/ReadModels.MongoDB) | No description |
+| [AspNetCore](https://github.com/dolittle-build-testing/AspNetCore) | No description |
+| [AzureDevOps](https://github.com/dolittle-build-testing/AzureDevOps) | No description |
+| [JavaScript.Client](https://github.com/dolittle-build-testing/JavaScript.Client) | Client libraries |
+| [JavaScript.Components.Aurelia](https://github.com/dolittle-build-testing/JavaScript.Components.Aurelia) | No description |
+
+### [dolittle-runtime](https://github.com/dolittle-runtime) 
+Core Runtime and SDK for the Dolittle Application Platform 
+| Repository | Description | 
+| --- | --- | 
+| [DotNET.SDK](https://github.com/dolittle-runtime/DotNET.SDK) | The .NET SDK for Dolittle |
+| [Runtime](https://github.com/dolittle-runtime/Runtime) | This repository holds the runtime for Dolittle |
+| [Runtime.Events.Store.Specs](https://github.com/dolittle-runtime/Runtime.Events.Store.Specs) | No description |
+| [Runtime.Events.MongoDB](https://github.com/dolittle-runtime/Runtime.Events.MongoDB) | No description |
+| [Runtime.Events.Relativity.Specs](https://github.com/dolittle-runtime/Runtime.Events.Relativity.Specs) | No description |
+| [Runtime.Events.Processing.Specs](https://github.com/dolittle-runtime/Runtime.Events.Processing.Specs) | Specs that for the acceptance criteria for Implementations of IEventProcessorOffsetRepository and IFetchUnprocessedEvents |
+| [Home](https://github.com/dolittle-runtime/Home) | No description |
+| [JavaScript.SDK](https://github.com/dolittle-runtime/JavaScript.SDK) | No description |
+| [Contracts](https://github.com/dolittle-runtime/Contracts) | No description |
+
+### [dolittle-edge-packages](https://github.com/dolittle-edge-packages) 
+No description 
+| Repository | Description | 
+| --- | --- | 
+| [azure-iotedge](https://github.com/dolittle-edge-packages/azure-iotedge) | No description |
+| [dolittle-edge](https://github.com/dolittle-edge-packages/dolittle-edge) | The Dolittle Edge Clear Linux package |
+| [dolittle-edge-dell-5000](https://github.com/dolittle-edge-packages/dolittle-edge-dell-5000) | The Dolittle Edge Dell 5000 Clear Linux package |
+| [kubernetes-bootstrapper](https://github.com/dolittle-edge-packages/kubernetes-bootstrapper) | No description |
+| [NetworkManager](https://github.com/dolittle-edge-packages/NetworkManager) | No description |
+| [dolittle-edge-agent](https://github.com/dolittle-edge-packages/dolittle-edge-agent) | The Dolittle Edge Agent Clear Linux package |
+
+### [dolittle-boilerplates](https://github.com/dolittle-boilerplates) 
+No description 
+| Repository | Description | 
+| --- | --- | 
+| [Veracity.BoundedContext.CSharp](https://github.com/dolittle-boilerplates/Veracity.BoundedContext.CSharp) | C# Bounded Context Boilerplate that sits on top of the existing C# bounded context Boiler Plate and adds Veracity specifics |
+| [home](https://github.com/dolittle-boilerplates/home) | No description |
+| [Interaction.Web.TS.Aurelia](https://github.com/dolittle-boilerplates/Interaction.Web.TS.Aurelia) | CSharp bounded context interaction layer for Aurelia using TypeScript |
+
+### [dolittle-edge](https://github.com/dolittle-edge) 
+No description 
+| Repository | Description | 
+| --- | --- | 
+| [Studio](https://github.com/dolittle-edge/Studio) | No description |
+| [Agent](https://github.com/dolittle-edge/Agent) | The Dolittle Edge Agent - providing the bridge to the cloud |
+| [EdgeOS](https://github.com/dolittle-edge/EdgeOS) | No description |
+| [EdgeOS-bundles](https://github.com/dolittle-edge/EdgeOS-bundles) | No description |
+| [EdgeOS-images](https://github.com/dolittle-edge/EdgeOS-images) | No description |
+| [EdgeOS-UpdateSite](https://github.com/dolittle-edge/EdgeOS-UpdateSite) | No description |
+
+### [dolittle-samples](https://github.com/dolittle-samples) 
+No description 
+| Repository | Description | 
+| --- | --- | 
+| [ToDolittle](https://github.com/dolittle-samples/ToDolittle) | Sample todo app using the Dolittle framework |
+| [Bank](https://github.com/dolittle-samples/Bank) | No description |
+
+### [dolittle-fundamentals](https://github.com/dolittle-fundamentals) 
+No description 
+| Repository | Description | 
+| --- | --- | 
+| [JavaScript.Fundamentals](https://github.com/dolittle-fundamentals/JavaScript.Fundamentals) | The Core JavaScript project |
+| [DotNET.Fundamentals](https://github.com/dolittle-fundamentals/DotNET.Fundamentals) | Reusable, fundamental abstractions and building blocks |
+| [Home](https://github.com/dolittle-fundamentals/Home) | No description |
+| [Tooling](https://github.com/dolittle-fundamentals/Tooling) | No description |
+
+### [dolittle-extensions](https://github.com/dolittle-extensions) 
+No description 
+| Repository | Description | 
+| --- | --- | 
+| [ReadModels.MongoDB](https://github.com/dolittle-extensions/ReadModels.MongoDB) | No description |
+| [Machine.Specifications](https://github.com/dolittle-extensions/Machine.Specifications) | Extensions to MSpec to help write specs for Dolittle applications |
+| [NodaMoney](https://github.com/dolittle-extensions/NodaMoney) | Extensions to make it easier to work with NodaMoney |
+
+### [dolittle-campaigns](https://github.com/dolittle-campaigns) 
+No description 
+| Repository | Description | 
+| --- | --- | 
+| [Slush](https://github.com/dolittle-campaigns/Slush) | No description |
+
+### [dolittle-security](https://github.com/dolittle-security) 
+No description 
+| Repository | Description | 
+| --- | --- | 
+| [Gateway](https://github.com/dolittle-security/Gateway) | No description |
+
+### [dolittle-casestudies](https://github.com/dolittle-casestudies) 
+No description 
+| Repository | Description | 
+| --- | --- | 
+| [ocfev](https://github.com/dolittle-casestudies/ocfev) | Occasionally Connected Fuel Efficient Vessels |
+
+### [dolittle-fabric](https://github.com/dolittle-fabric) 
+No description 
+| Repository | Description | 
+| --- | --- | 
+| [Contracts](https://github.com/dolittle-fabric/Contracts) | No description |
+
+### [dolittle-contribs](https://github.com/dolittle-contribs) 
+No description 
+| Repository | Description | 
+| --- | --- | 
+| [JavaScript.Client.Aurelia.Contrib](https://github.com/dolittle-contribs/JavaScript.Client.Aurelia.Contrib) | Playground to introduce and experiment with reusable Aurelia-helpers. |
+| [JavaScript.Client.Contrib](https://github.com/dolittle-contribs/JavaScript.Client.Contrib) | Playground to introduce and experiment with reusable helpers / extenders related to JavaScript.Client |
 
 ## Packages
 
