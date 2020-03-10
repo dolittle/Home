@@ -50,7 +50,7 @@ const whiteList =
 
   for (let orgDetails of orgDetailList) {
     // write the column headers and start the table
-    file.write(`## [${orgDetails.login}](${orgDetails.html_url}) \n`);
+    file.write(`### [${orgDetails.login}](${orgDetails.html_url}) \n`);
     const description = orgDetails.description ? orgDetails.description : 'No description';
     file.write(`${description} \n`)
 
