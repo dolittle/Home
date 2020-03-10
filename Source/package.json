@@ -1,0 +1,15 @@
+{
+  "main": "script.ts",
+  "scripts": {
+    "start": "ts-node script.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@octokit/rest": "^17.0.0",
+    "@types/node": "^13.7.7",
+    "node-fetch": "^2.6.0"
+  }
+}
