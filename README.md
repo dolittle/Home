@@ -2,18 +2,27 @@
 
 [![Join the chat at https://gitter.im/dolittle/home](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dolittle/home?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+Dolittle is an open-source, decentralized, distributed, event-driven microservice framework that helps you create Line-of-Business applications.
+
+The framework is a collection of C# packages and Aurelia front-end bindings that make it easy to create event-driven web applications using the CQRS pattern.
+
+This repository is the landing point and spring board to the different aspects/repositories of the world of Dolittle.
 
 ## Contributing
 
-Read our [contribution guide](https://dolittle.io/contributing/) and get familiar with our [code of conduct](https://dolittle.io/contributing/guidelines/code_of_conduct/).
+Read our [contribution guide](https://dolittle.io/contributing/) and get familiar with our [code of conduct](https://dolittle.io/contributing/guidelines/code_of_conduct/) to start contributing.
 
-## Projects
+## Issues
 
-This repository holds the issues across all projects organized in the [Projects](https://github.com/dolittle/Home/projects) tab above. It also contains the links to all the projects organized from here.
+All of our issues are filed under this repository. This is to consolidate our issues to a single place where they can be monitored easily.
 
 ## Getting Started
 
-Go to our [documentation site](http://www.dolittle.io) and learn more about the project and how to get started.
+Go to our [documentation site](http://www.dolittle.io) and learn more about the Dolittle framework and how to get started.
+
+## Community
+
+For questions we have our own [community site.](https://community.dolittle.com/)
 
 
 ## Organizations
