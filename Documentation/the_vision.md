@@ -15,7 +15,7 @@ aliases:
 Our vision at Dolittle is to build a platform to solve problems for line-of-business applications that is easy
 to use, increases developer productivity while remaining easy to maintain. 
 
-While our vision remains constant details around what needs to be implemented shifts over time as we learn more and gain experience on how Dolittle.io is used in production. Dolittle.io will be adpated as new techniques and technologies emerge. 
+While our vision remains constant details around what needs to be implemented shifts over time as we learn more and gain experience on how the Dolittle framework is used in production. Dolittle will adapt as new techniques and technologies emerge. 
 
 ## Background
 
