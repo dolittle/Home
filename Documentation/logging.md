@@ -45,9 +45,6 @@ To allow filtering of log messages from different parts of the source code durin
 In most languages this category is defined by the fully qualified name of the types that define the code executed, including the package or namespace in which the type resides.
 These categories are commonly used during debugging to selectively enable `Debug` or `Trace` messages for parts of the software by defining filters on the log message output.
 
-## Log output
-
-
 ## Log message levels
 We define five log message levels that represent the intent or severity of the log message.
 They are, in decreasing order of severity:
@@ -88,11 +85,20 @@ Trace log messages are the most verbose of the log messages.
 They are used by developers to figure out _what_ caused a failure or an unexpected behavior, and should therefore contain the data that affects the execution flow path.
 Typical uses of trace log messages are public methods on interface implementations, and contents of collections used for lookup.
 
-## Log message style
+## Log output
+The logs of an applications is its source of truth. It is important that log messages are consistent in where they are outputted and the format in which they are outputted. They should be outputted to a place where they can be easily retrieved by anyone who is supposed to read them. Log messages are normally outputted to the console, butt they can also be appended to files. The log messages that are outputted should be readable and have a consistent style and format. 
+
+### Configuring
+We're not necessarily interested in all of the logging levels or all of the categories each time we run an application. The logging should be easily configurable so that we can choose what we want to see in terms of categories and the levels of the logging. For instance software running in a production environment should consider only logging information, warning and error log messages. While we may want to show more log messages when running in development mode. It is also important to keep in mind that logging can possibly have a considerable performance cost. This is especially important to consider when deploying software with lots of logging to production environments.
+
+#### Asp.Net Core
+We're using [Microsoft's logger](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-3.1) in the Dolittle framework for .Net. We can use the 'appsettings.json' to configure the logging and we can provide different configurations for different environments like production and development. Look [here](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-3.1) for information on Microsoft's logger.
+
+## Log message
 Log messages should be written in a style that makes it easy to navigate and filter out irrelevant information so that we can find the cause of any error that has occurred by simply reviewing the them. Logs should be focused and comprehensive for both humans and machines. They should also be consistent in format and style across platforms, languages and frameworks.
 
-### English
-There are arguably many reasons to keep to English-only log messages. One technical reason is that English ensures us that we stick to ASCII character set.
+### Stick to English
+There are arguably many reasons to stick to English-only log messages. One technical reason is that English ensures us that we stick to ASCII character set.
 This is important because we don't necessarily know what happens to the log message. If the log messages uses specials character sets it might not render correctly or can become corrupt and thus unreadable.
 
 ### Log context
@@ -109,4 +115,4 @@ For statically typed languages the namespace of the code executing the logging s
 We add logs to software because someone most likely has to read them someday. Thus it makes sense that we should keep in mind the target audience when writing log messages. Which person is most likely going to read a log message affects all the aspects of that log message; The log message content, level and category is dependent on that. Information log messages is intended for the end-user while trace and debug messages are most likely only read in the case of troubleshooting, meaning that only developers will read them. The content of the log message be targeted towards the intended audience.
 
 ### Don't log sensitive information
-Sensitive information like personal identifiable information, passwords and social security numbers has no place in log messages. 
+Sensitive information like personal identifiable information, passwords and social security numbers has no place in log messages.
