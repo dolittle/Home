@@ -2,7 +2,7 @@
 title: Logging
 description: Learn about how you should use logging in your code
 keywords: Contributing
-author: jakhog
+author: jakhog, woksin
 weight: 13
 ---
 
