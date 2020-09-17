@@ -1,5 +1,8 @@
 ## Description
 
+Since we will use a github Action for an automated process of creating and updating changelogs, commit messages would be formated like described here: https://github.com/BobAnkh/auto-generate-changelog/blob/master/CONTRIBUTING.md#commit-message-convention
+The "<type>(<scope>): <subject>" line is the title of the commit message, this will be added in the CHANGELOG.md after each release.
+
 Replace this text with a short description. This can and should include links to issues the pull requests fixes for more details. This description will be part of the changelog for the project.
 
 ## Definition of Done
