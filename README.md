@@ -31,7 +31,7 @@ Dolittle consists of quite a few projects all geared towards different aspects. 
 | Aspect | Description |
 | ------ | ----------- |
 | [Home](https://github.com/dolittle) | Our landing point and spring board to the different aspects of the world of Dolittle |
-| [Runtime](https://github.com/dolittle-runtime) | The core of the Dolittle Runtime. This is where you'll find things like the [DotNet SDK](https://github.com/dolittle-runtime/dotnet.sdk), [Runtime](https://github.com/dolittle-runtime/runtime) |
+| [Runtime](https://github.com/dolittle-runtime) | The core of the Dolittle Runtime. This is where you'll find things like the [DotNet SDK](https://github.com/dolittle/DotNET.SDK), [Runtime](https://github.com/dolittle-runtime/runtime) |
 | [Interaction](https://github.com/dolittle-interaction) | All interaction layers are found here. An interaction layer is for instance a frontend, API or similar |
 | [Fundamentals](https://github.com/dolittle-fundamentals) | Fundamental, reusable building blocks. Contains projects like [.NET Fundamentals](http://github.com/dolittle-fundamentals/dotnet.fundamentals) and [JavaScript Fundamentals](http://github.com/dolittle-fundamentals/javascript.fundamentals) |
 | [Tools](https://github.com/dolittle-tools) | All tools for the platform |
@@ -50,7 +50,7 @@ Dolittle consists of quite a few projects all geared towards different aspects. 
 | ------- | ----------- |
 | [DotNET.Build](https://github.com/dolittle/dotnet.build) | Common build, settings and tools for .NET core developers |
 | [DotNET.Fundamentals](https://github.com/dolittle-fundamentals/dotnet.fundamentals) | Fundamental generic building blocks for .NET |
-| [DotNET.SDK](https://github.com/dolittle-runtime/dotnet.sdk) | The .NET SDK for interacting with Dolittle |
+| [DotNET.SDK](https://github.com/dolittle/DotNET.SDK) | The .NET SDK for interacting with Dolittle |
 | [DotNET.DependencyInversion.Autofac](https://github.com/dolittle-extensions/DotNET.DependencyInversion.Autofac.sdk) | The .NET SDK for interacting with Dolittle |
 | [Runtime](https://github.com/dolittle-runtime/runtime) | Runtime for Dolittle - this is the core of the platform |
 | [MongoDB Event Store](https://github.com/dolittle-extensions/Runtime.Events.MongoDB) | Event Store implementation for MongoDB |
